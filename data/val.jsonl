@@ -1,0 +1,1312 @@
+{"id": "49", "text": "tell me the time in g. m. t. plus five", "label": "datetime_convert"}
+{"id": "56", "text": "i want some curry to go any recommendations olly", "label": "takeaway_query"}
+{"id": "57", "text": "find my thai takeaways around grassmarket", "label": "takeaway_query"}
+{"id": "68", "text": "play me barcelona by queen", "label": "play_music"}
+{"id": "95", "text": "set alarm for eight every weekday", "label": "alarm_set"}
+{"id": "116", "text": "what's playing", "label": "music_query"}
+{"id": "138", "text": "which song is that", "label": "music_query"}
+{"id": "146", "text": "can you play some jazz", "label": "play_music"}
+{"id": "168", "text": "can they provide takeaway", "label": "takeaway_query"}
+{"id": "196", "text": "tell me the time", "label": "datetime_query"}
+{"id": "273", "text": "what is the song", "label": "music_query"}
+{"id": "274", "text": "olly what is the song", "label": "music_query"}
+{"id": "297", "text": "shuffle songs by coldplay", "label": "play_music"}
+{"id": "307", "text": "alexa i would like to have a sushi can you order me a lunch", "label": "takeaway_order"}
+{"id": "353", "text": "what day of the week is the twenty second march", "label": "datetime_query"}
+{"id": "359", "text": "can you tell me the time", "label": "datetime_query"}
+{"id": "392", "text": "play a song from my favorites", "label": "play_music"}
+{"id": "399", "text": "remove the first alarm", "label": "alarm_remove"}
+{"id": "400", "text": "start playing", "label": "play_music"}
+{"id": "418", "text": "make me a wake up alarm for eight forty five am", "label": "alarm_set"}
+{"id": "445", "text": "repeat album", "label": "music_settings"}
+{"id": "510", "text": "do i have an alarm set", "label": "alarm_query"}
+{"id": "533", "text": "set an alarm for nine am", "label": "alarm_set"}
+{"id": "535", "text": "i need a reminder alarm at one", "label": "alarm_set"}
+{"id": "551", "text": "who is singing this song", "label": "music_query"}
+{"id": "555", "text": "play mf doom anything", "label": "play_music"}
+{"id": "569", "text": "how many birthday's are on twenty third", "label": "datetime_query"}
+{"id": "627", "text": "play the last hit song of metallica last album please", "label": "play_music"}
+{"id": "721", "text": "create an alarm at four o'clock tomorrow morning", "label": "alarm_set"}
+{"id": "761", "text": "i want to know about this song", "label": "music_query"}
+{"id": "778", "text": "play boogie in your butt by eddie murphy", "label": "play_music"}
+{"id": "779", "text": "i want to hear snow by red hot chili peppers", "label": "play_music"}
+{"id": "780", "text": "listen to girl from impanema by frank sinatra", "label": "play_music"}
+{"id": "785", "text": "add shape of you to the current queue", "label": "play_music"}
+{"id": "810", "text": "what day of the month is it", "label": "datetime_query"}
+{"id": "811", "text": "play new gaga playlist", "label": "play_music"}
+{"id": "818", "text": "go to pandora find twenty one pilots radio play please", "label": "play_music"}
+{"id": "827", "text": "play bob dylan playlist", "label": "play_music"}
+{"id": "854", "text": "play r. & b. music", "label": "play_music"}
+{"id": "856", "text": "r. & b. music", "label": "play_music"}
+{"id": "877", "text": "food order from grubhub", "label": "takeaway_order"}
+{"id": "885", "text": "alarm set eight am", "label": "alarm_set"}
+{"id": "912", "text": "play my favorite pandora station", "label": "play_radio"}
+{"id": "927", "text": "who sings this song", "label": "music_query"}
+{"id": "942", "text": "what is the time in london right now", "label": "datetime_query"}
+{"id": "993", "text": "play irene from tobymac", "label": "play_music"}
+{"id": "1006", "text": "i want to hear metallica on my rock playlist", "label": "play_music"}
+{"id": "1037", "text": "what alarms do i have set for thursday", "label": "alarm_query"}
+{"id": "1042", "text": "open the folder app please", "label": "takeaway_order"}
+{"id": "1097", "text": "play my dance music playlist", "label": "play_music"}
+{"id": "1098", "text": "what day of the week does the fifteenth of march fall on", "label": "datetime_query"}
+{"id": "1109", "text": "i find rap music really enjoyable", "label": "music_likeness"}
+{"id": "1133", "text": "set alarm at five thirty am", "label": "alarm_set"}
+{"id": "1144", "text": "i need some rap", "label": "play_music"}
+{"id": "1149", "text": "time in new york now", "label": "datetime_query"}
+{"id": "1164", "text": "play i walk the line by johnny cash", "label": "play_music"}
+{"id": "1179", "text": "never ever play me any country", "label": "music_dislikeness"}
+{"id": "1192", "text": "i need to hear notorious thugs by bone thugs now", "label": "play_music"}
+{"id": "1194", "text": "play rein in blood by slayer at five am tomorrow to make sure i actually wake up", "label": "play_music"}
+{"id": "1202", "text": "present time in new york", "label": "datetime_query"}
+{"id": "1206", "text": "disable my three p. m. alarm", "label": "alarm_remove"}
+{"id": "1207", "text": "cancel my three p. m. alarm", "label": "alarm_remove"}
+{"id": "1235", "text": "what is the time at singapore when our time is five p. m.", "label": "datetime_convert"}
+{"id": "1253", "text": "please give me the time", "label": "datetime_query"}
+{"id": "1284", "text": "change this time to ist", "label": "datetime_convert"}
+{"id": "1325", "text": "does that restaurant allow call in orders", "label": "takeaway_query"}
+{"id": "1339", "text": "what alarms are set in the morning", "label": "alarm_query"}
+{"id": "1342", "text": "that song is my favorite", "label": "music_likeness"}
+{"id": "1382", "text": "play music on shuffle", "label": "play_music"}
+{"id": "1397", "text": "play taylor swift", "label": "play_music"}
+{"id": "1408", "text": "play sanam", "label": "play_music"}
+{"id": "1429", "text": "make a playlist of all songs of justin bibber and play with shuffle", "label": "play_music"}
+{"id": "1441", "text": "play all indie pop songs", "label": "play_music"}
+{"id": "1449", "text": "when is easter in the year two thousand and eighteen", "label": "datetime_query"}
+{"id": "1453", "text": "change the alarm weekly settings", "label": "alarm_remove"}
+{"id": "1483", "text": "what alarms did i set", "label": "alarm_query"}
+{"id": "1517", "text": "order a ham and cheese sandwich from subway", "label": "takeaway_order"}
+{"id": "1527", "text": "remind me that i like that song", "label": "music_likeness"}
+{"id": "1529", "text": "play songs by nkotb", "label": "play_music"}
+{"id": "1544", "text": "i want to listen to up beat music", "label": "play_music"}
+{"id": "1585", "text": "please save my opinion about the song that is currently playing", "label": "music_likeness"}
+{"id": "1596", "text": "what time is it in dallas", "label": "datetime_query"}
+{"id": "1646", "text": "are there any alarms going off today", "label": "alarm_query"}
+{"id": "1657", "text": "how many alarms are currently set", "label": "alarm_query"}
+{"id": "1669", "text": "christian rock from one thousand nine hundred and ninety upwards only should be selected and played", "label": "play_music"}
+{"id": "1697", "text": "the song playing now is released by which artist", "label": "music_query"}
+{"id": "1704", "text": "what time is time", "label": "datetime_query"}
+{"id": "1711", "text": "save chhana mereya song in my playlist", "label": "music_likeness"}
+{"id": "1713", "text": "download and save song of dangal movie", "label": "music_likeness"}
+{"id": "1753", "text": "play all rock songs", "label": "play_music"}
+{"id": "1754", "text": "play all songs from playlist favorite", "label": "play_music"}
+{"id": "1762", "text": "what's the time in china right now", "label": "datetime_query"}
+{"id": "1771", "text": "play michael jackson", "label": "play_music"}
+{"id": "1790", "text": "tell me my music likes", "label": "music_query"}
+{"id": "1808", "text": "title", "label": "music_query"}
+{"id": "1839", "text": "go to youtube and play me the best wedding songs collection", "label": "play_music"}
+{"id": "1864", "text": "what alarms are on right now", "label": "alarm_query"}
+{"id": "1872", "text": "great song for the commute", "label": "music_likeness"}
+{"id": "2057", "text": "put that song in my favorite list", "label": "music_likeness"}
+{"id": "2092", "text": "check the current playing music title", "label": "music_query"}
+{"id": "2096", "text": "does peking garden do orders online", "label": "takeaway_query"}
+{"id": "2100", "text": "how much does general tsos chicken cost at peking garden", "label": "takeaway_order"}
+{"id": "2109", "text": "put summer lovin in third position in my queue", "label": "play_music"}
+{"id": "2111", "text": "when it's ten p. m. here what time is it in brisbane", "label": "datetime_convert"}
+{"id": "2134", "text": "wake me up", "label": "alarm_set"}
+{"id": "2145", "text": "was christmas one thousand nine hundred and seventy two on a weekend", "label": "datetime_query"}
+{"id": "2150", "text": "give me information about this song", "label": "music_query"}
+{"id": "2162", "text": "repeat jazz", "label": "music_settings"}
+{"id": "2195", "text": "set an alarm", "label": "alarm_set"}
+{"id": "2225", "text": "play ella fitzgerals get happy", "label": "play_music"}
+{"id": "2229", "text": "what is the nine am c. s. t. to e. s. t.", "label": "datetime_convert"}
+{"id": "2252", "text": "change this song to the first place", "label": "play_music"}
+{"id": "2260", "text": "please play are rahman music", "label": "play_music"}
+{"id": "2280", "text": "play recently added music", "label": "play_music"}
+{"id": "2353", "text": "what is the name of the music playing now", "label": "music_query"}
+{"id": "2392", "text": "i want to hear love me", "label": "play_music"}
+{"id": "2412", "text": "could you tell me the time in london", "label": "datetime_query"}
+{"id": "2415", "text": "call china king chinese restaurant", "label": "takeaway_order"}
+{"id": "2451", "text": "seven hundred", "label": "datetime_convert"}
+{"id": "2456", "text": "what's time", "label": "datetime_query"}
+{"id": "2471", "text": "what time does the sun set", "label": "datetime_query"}
+{"id": "2486", "text": "what is the time over in florida", "label": "datetime_query"}
+{"id": "2532", "text": "play music by a. c. d. c.", "label": "play_music"}
+{"id": "2556", "text": "what is tomorrow's date", "label": "datetime_query"}
+{"id": "2560", "text": "play random music", "label": "play_music"}
+{"id": "2606", "text": "play my favorite music right now", "label": "play_music"}
+{"id": "2632", "text": "let me know today's date in american format", "label": "datetime_query"}
+{"id": "2672", "text": "how many alarms do i have set for morning hours between six and nine am", "label": "alarm_query"}
+{"id": "2674", "text": "play favorites", "label": "play_music"}
+{"id": "2689", "text": "confirm the order and send me the confirmation", "label": "takeaway_order"}
+{"id": "2716", "text": "purple haze", "label": "play_music"}
+{"id": "2723", "text": "what is this music called", "label": "music_query"}
+{"id": "2740", "text": "can i get delivery from this restaurant", "label": "takeaway_query"}
+{"id": "2761", "text": "begin music", "label": "play_music"}
+{"id": "2763", "text": "show me the time", "label": "datetime_query"}
+{"id": "2771", "text": "how much longer on my order", "label": "takeaway_query"}
+{"id": "2779", "text": "please find music by afi", "label": "play_music"}
+{"id": "2792", "text": "hey play crazy by britney spears", "label": "play_music"}
+{"id": "2801", "text": "what time is it in london", "label": "datetime_query"}
+{"id": "2845", "text": "where is my order", "label": "takeaway_query"}
+{"id": "2870", "text": "olly tell me my alarms", "label": "alarm_query"}
+{"id": "2893", "text": "would you play some music please", "label": "play_music"}
+{"id": "2925", "text": "please order take from jason's deli", "label": "takeaway_order"}
+{"id": "2936", "text": "play my second playlist", "label": "play_music"}
+{"id": "2937", "text": "alexa play my second playlist", "label": "play_music"}
+{"id": "2940", "text": "play my shazaam playlist on the spotify app", "label": "play_music"}
+{"id": "2964", "text": "please play all songs by bruno mars", "label": "play_music"}
+{"id": "2983", "text": "remove set alarm", "label": "alarm_remove"}
+{"id": "3016", "text": "add gold digger to queue", "label": "play_music"}
+{"id": "3021", "text": "take out available louies", "label": "takeaway_query"}
+{"id": "3043", "text": "reset alarm", "label": "alarm_remove"}
+{"id": "3046", "text": "i am really craving for chinese food right now please let me order take out", "label": "takeaway_order"}
+{"id": "3049", "text": "how about some pizza tonight can you please order a pepperoni large", "label": "takeaway_order"}
+{"id": "3062", "text": "please remove this alarm", "label": "alarm_remove"}
+{"id": "3086", "text": "play a song", "label": "play_music"}
+{"id": "3115", "text": "play firework by katy perry", "label": "play_music"}
+{"id": "3142", "text": "i hate this song do not play it again", "label": "music_dislikeness"}
+{"id": "3163", "text": "what alarms have i set for tomorrow", "label": "alarm_query"}
+{"id": "3165", "text": "play that song next", "label": "play_music"}
+{"id": "3170", "text": "play my motivational playlist", "label": "play_music"}
+{"id": "3180", "text": "i'd like an alarm set for this saturday at ten", "label": "alarm_set"}
+{"id": "3192", "text": "give five stars to this song", "label": "music_likeness"}
+{"id": "3202", "text": "i like jazz you should know", "label": "music_likeness"}
+{"id": "3203", "text": "please check my playlist", "label": "music_likeness"}
+{"id": "3213", "text": "set a new alarm for that time", "label": "alarm_set"}
+{"id": "3218", "text": "set alarm for six am everyday", "label": "alarm_set"}
+{"id": "3224", "text": "look for song two and play it", "label": "play_music"}
+{"id": "3228", "text": "what day of the week does christmas fall on this year", "label": "datetime_query"}
+{"id": "3229", "text": "what day does my birthday fall on this year", "label": "datetime_query"}
+{"id": "3250", "text": "i want to order some takeaway food", "label": "takeaway_order"}
+{"id": "3273", "text": "olly find out if kfc delivers please", "label": "takeaway_query"}
+{"id": "3294", "text": "what is the time difference between central and eastern", "label": "datetime_convert"}
+{"id": "3302", "text": "how late am i", "label": "datetime_query"}
+{"id": "3312", "text": "set an alarm for me for tomorrow at seven p. m.", "label": "alarm_set"}
+{"id": "3372", "text": "what time is it in california", "label": "datetime_query"}
+{"id": "3385", "text": "at seven am tomorrow morning ring the alarm", "label": "alarm_set"}
+{"id": "3414", "text": "when did i place my order and what was the projected time it would take", "label": "takeaway_query"}
+{"id": "3421", "text": "what music is it", "label": "music_query"}
+{"id": "3423", "text": "what is the time for jimmy's party", "label": "calendar_query"}
+{"id": "3442", "text": "the twenty second is on what day of the week", "label": "datetime_query"}
+{"id": "3462", "text": "send me a wake up alert at seven am tomorrow morning", "label": "alarm_set"}
+{"id": "3492", "text": "let's play my most played song list", "label": "play_music"}
+{"id": "3514", "text": "select rai music file", "label": "play_music"}
+{"id": "3533", "text": "please change time zone to india", "label": "datetime_convert"}
+{"id": "3539", "text": "please play shake it off by taylor swiftm", "label": "play_music"}
+{"id": "3541", "text": "i would like to hear heathens by twenty one pilots", "label": "play_music"}
+{"id": "3549", "text": "play metallica on shuffle", "label": "play_music"}
+{"id": "3606", "text": "what is the time in beijing", "label": "datetime_query"}
+{"id": "3607", "text": "what is the time in la", "label": "datetime_query"}
+{"id": "3631", "text": "hey google play some jazz music for me", "label": "play_music"}
+{"id": "3634", "text": "play be warned by tech nine", "label": "play_music"}
+{"id": "3636", "text": "i want you to put on be warned by tech nine", "label": "play_music"}
+{"id": "3651", "text": "what's the current time in orlando floor", "label": "datetime_query"}
+{"id": "3670", "text": "does this restaurant have takeaway", "label": "takeaway_query"}
+{"id": "3680", "text": "who is the artist of this song", "label": "music_query"}
+{"id": "3703", "text": "what alarms are set for this week", "label": "alarm_query"}
+{"id": "3714", "text": "play my playlist starting from the bottom", "label": "play_music"}
+{"id": "3716", "text": "please keep everything i have on this song", "label": "music_likeness"}
+{"id": "3719", "text": "what time i sit in china right now", "label": "datetime_query"}
+{"id": "3727", "text": "play best friends by yelawolf", "label": "play_music"}
+{"id": "3741", "text": "what song is playing right now", "label": "music_query"}
+{"id": "3764", "text": "set alarm for nine am", "label": "alarm_set"}
+{"id": "3778", "text": "play spotify playlist blank", "label": "play_music"}
+{"id": "3781", "text": "i would love to hear the playlist i created for my wedding", "label": "play_music"}
+{"id": "3828", "text": "i need to delete the alarm for church on sundays at eleven am", "label": "alarm_remove"}
+{"id": "3845", "text": "order ribs for dinner", "label": "takeaway_order"}
+{"id": "3891", "text": "go back", "label": "play_podcasts"}
+{"id": "3894", "text": "read that back", "label": "play_audiobook"}
+{"id": "3910", "text": "start my favorite music", "label": "play_music"}
+{"id": "3918", "text": "i want to listen to the beatles greatest hits", "label": "play_music"}
+{"id": "3968", "text": "indie", "label": "play_music"}
+{"id": "3980", "text": "please play shape of you by said sheeran", "label": "play_music"}
+{"id": "3995", "text": "olly what day of the week is halloween", "label": "datetime_query"}
+{"id": "4029", "text": "play nineties alternative", "label": "play_music"}
+{"id": "4032", "text": "what are todays country hits", "label": "play_music"}
+{"id": "4048", "text": "please find out of charley's steakhouse delivers", "label": "takeaway_query"}
+{"id": "4049", "text": "look up whether or not charley's steakhouse delivers", "label": "takeaway_query"}
+{"id": "4063", "text": "will they deliver to me", "label": "takeaway_query"}
+{"id": "4086", "text": "nice lyrics", "label": "music_likeness"}
+{"id": "4087", "text": "nice music", "label": "music_likeness"}
+{"id": "4114", "text": "add a lot of james taylor joni mitchell and cat stevens to the playlist", "label": "play_music"}
+{"id": "4120", "text": "what alarm time had you set", "label": "alarm_query"}
+{"id": "4121", "text": "what time have you set the alarm", "label": "alarm_query"}
+{"id": "4123", "text": "what asian restaurants nearby offer to go food", "label": "takeaway_query"}
+{"id": "4130", "text": "is my reminder alarm set for dance class", "label": "alarm_query"}
+{"id": "4161", "text": "i want to order some chinese food tonight what's delivering to me", "label": "takeaway_order"}
+{"id": "4188", "text": "hey olly what's the time", "label": "datetime_query"}
+{"id": "4195", "text": "play last christmas by george michael", "label": "play_music"}
+{"id": "4221", "text": "can i know what's the time now", "label": "datetime_query"}
+{"id": "4223", "text": "where is my pizza from domino's at", "label": "takeaway_query"}
+{"id": "4280", "text": "i like soft rock music", "label": "music_likeness"}
+{"id": "4281", "text": "i like classic rock", "label": "music_likeness"}
+{"id": "4293", "text": "what are the upcoming reminders", "label": "calendar_query"}
+{"id": "4301", "text": "play music by queen", "label": "play_music"}
+{"id": "4304", "text": "play major tom by david bowie", "label": "play_music"}
+{"id": "4324", "text": "play mocking bird by eminem", "label": "play_music"}
+{"id": "4340", "text": "show me chinese food near me", "label": "takeaway_order"}
+{"id": "4344", "text": "rate this song five stars and save the rating", "label": "music_likeness"}
+{"id": "4350", "text": "what hour of the day is it in dallas", "label": "datetime_query"}
+{"id": "4352", "text": "give me the time in p. s. t.", "label": "datetime_query"}
+{"id": "4363", "text": "the time in cairo please", "label": "datetime_query"}
+{"id": "4375", "text": "review all alarms", "label": "alarm_query"}
+{"id": "4381", "text": "remove my earliest alarm for tomorrow", "label": "alarm_remove"}
+{"id": "4416", "text": "what is the time in london", "label": "datetime_query"}
+{"id": "4417", "text": "time wellington nz", "label": "datetime_query"}
+{"id": "4419", "text": "shuffle my workout playlist", "label": "play_music"}
+{"id": "4420", "text": "find some rock", "label": "play_music"}
+{"id": "4428", "text": "identify song", "label": "music_query"}
+{"id": "4433", "text": "play some music from metal genre", "label": "play_music"}
+{"id": "4445", "text": "olly you need to give me different directions", "label": "transport_query"}
+{"id": "4460", "text": "does fongs have delivery", "label": "takeaway_query"}
+{"id": "4467", "text": "at what time is my alarm set", "label": "alarm_query"}
+{"id": "4468", "text": "postpone my alarm by fifteen minutes", "label": "alarm_set"}
+{"id": "4502", "text": "hey what time is it in london now", "label": "datetime_query"}
+{"id": "4503", "text": "hey olly what time is it in london now", "label": "datetime_query"}
+{"id": "4513", "text": "i want to know what time it is", "label": "datetime_query"}
+{"id": "4547", "text": "start the dogwalking playlist", "label": "play_music"}
+{"id": "4552", "text": "list all of my alarms", "label": "alarm_query"}
+{"id": "4575", "text": "i want to order some take-out food", "label": "takeaway_order"}
+{"id": "4581", "text": "what is the time in paris", "label": "datetime_query"}
+{"id": "4604", "text": "check to see if pizza hut has my order on the way", "label": "takeaway_query"}
+{"id": "4612", "text": "play a selection of classical music", "label": "play_music"}
+{"id": "4626", "text": "what mexican restaurants are there nearby for take-out", "label": "takeaway_order"}
+{"id": "4672", "text": "this is the best band ever", "label": "music_likeness"}
+{"id": "4673", "text": "please list all my alarms", "label": "alarm_query"}
+{"id": "4686", "text": "please play the following song", "label": "play_music"}
+{"id": "4694", "text": "please set an alarm for ten p. m.", "label": "alarm_set"}
+{"id": "4699", "text": "reminder", "label": "alarm_set"}
+{"id": "4730", "text": "open my music", "label": "play_music"}
+{"id": "4736", "text": "today is what day", "label": "datetime_query"}
+{"id": "4744", "text": "list all of my upcoming alarms", "label": "alarm_query"}
+{"id": "4756", "text": "i would like to listen to some down tempo", "label": "play_music"}
+{"id": "4779", "text": "what day of the week is june twenty seventh on this year", "label": "datetime_query"}
+{"id": "4866", "text": "call the nearest pizza place that offers buffalo pizza", "label": "takeaway_order"}
+{"id": "4882", "text": "what time is it in a city", "label": "datetime_query"}
+{"id": "4886", "text": "save the opinion that i just posted to this song", "label": "music_likeness"}
+{"id": "4898", "text": "how this song", "label": "music_query"}
+{"id": "4921", "text": "turn off my first alarm", "label": "alarm_remove"}
+{"id": "4923", "text": "what will the date be next wednesday", "label": "datetime_query"}
+{"id": "4929", "text": "turn on my first scheduled alarm", "label": "alarm_set"}
+{"id": "4936", "text": "pull up my party playlist", "label": "play_music"}
+{"id": "4940", "text": "can i get the current time", "label": "datetime_query"}
+{"id": "4958", "text": "when is the third monday of this month", "label": "datetime_query"}
+{"id": "4960", "text": "music third day", "label": "play_music"}
+{"id": "4984", "text": "please tell me the date", "label": "datetime_query"}
+{"id": "4990", "text": "play busdriver", "label": "play_music"}
+{"id": "4991", "text": "play bus driver", "label": "play_music"}
+{"id": "5027", "text": "when is the next friday the thirteenth", "label": "datetime_query"}
+{"id": "5072", "text": "please create a new alarm", "label": "alarm_set"}
+{"id": "5083", "text": "create an alarm for six am", "label": "alarm_set"}
+{"id": "5091", "text": "olly skip two songs", "label": "music_settings"}
+{"id": "5092", "text": "siri skip two songs", "label": "music_settings"}
+{"id": "5099", "text": "olly cancel alarms", "label": "alarm_remove"}
+{"id": "5101", "text": "olly cancel yoga alarms", "label": "alarm_remove"}
+{"id": "5107", "text": "google shuffle playlist", "label": "music_settings"}
+{"id": "5111", "text": "play a rap song", "label": "play_music"}
+{"id": "5119", "text": "pink nobody knows", "label": "play_music"}
+{"id": "5121", "text": "remove all alarms if any", "label": "alarm_remove"}
+{"id": "5122", "text": "check if default alarm is set", "label": "alarm_query"}
+{"id": "5132", "text": "please tell me what is the time in tokyo japan", "label": "datetime_query"}
+{"id": "5152", "text": "please skip two songs", "label": "music_settings"}
+{"id": "5160", "text": "could you please play the song of michael jackson", "label": "play_music"}
+{"id": "5172", "text": "please wake me up at seven thirty am", "label": "alarm_set"}
+{"id": "5180", "text": "please add this song to my playlist favorites", "label": "music_likeness"}
+{"id": "5203", "text": "eight am manila time is what in eastern time", "label": "datetime_convert"}
+{"id": "5211", "text": "i want to listen to classical music", "label": "play_music"}
+{"id": "5213", "text": "i like to listen to hindustani music", "label": "play_music"}
+{"id": "5236", "text": "play my gym playlist", "label": "play_music"}
+{"id": "5257", "text": "open music player settings", "label": "music_settings"}
+{"id": "5276", "text": "please don't shuffle songs in music player just playing continuously", "label": "music_settings"}
+{"id": "5278", "text": "please play only music of pop mix", "label": "play_music"}
+{"id": "5325", "text": "hi there do you offer home delivery for orders", "label": "takeaway_query"}
+{"id": "5341", "text": "please alert me to the time", "label": "datetime_query"}
+{"id": "5361", "text": "which day of week is the twenty fourth", "label": "datetime_query"}
+{"id": "5363", "text": "is twenty fourth on tuesday", "label": "datetime_query"}
+{"id": "5372", "text": "what's new on itunes", "label": "music_query"}
+{"id": "5409", "text": "please show me detail of previous played song", "label": "music_query"}
+{"id": "5415", "text": "order a large plain pizza from mimo's for me", "label": "takeaway_order"}
+{"id": "5416", "text": "olly place an order for a combo platter from china buffet please", "label": "takeaway_order"}
+{"id": "5427", "text": "what is the time in canada now", "label": "datetime_query"}
+{"id": "5435", "text": "delete my eight p. m. alarm", "label": "alarm_remove"}
+{"id": "5551", "text": "which is the nearest restaurants available", "label": "recommendation_locations"}
+{"id": "5558", "text": "today feels like hard rock", "label": "play_music"}
+{"id": "5594", "text": "play firefly by mura masa", "label": "play_music"}
+{"id": "5615", "text": "what's the name of the piece you are playing", "label": "music_query"}
+{"id": "5623", "text": "alarm ten am", "label": "alarm_set"}
+{"id": "5624", "text": "alarm five p. m.", "label": "alarm_set"}
+{"id": "5635", "text": "ensure i have to get up at six in morning", "label": "alarm_set"}
+{"id": "5685", "text": "play item one", "label": "play_music"}
+{"id": "5704", "text": "please play my top music playlist", "label": "play_music"}
+{"id": "5715", "text": "play the song which is in movie rangoon", "label": "play_music"}
+{"id": "5737", "text": "give me the alarm times for the next two days", "label": "alarm_query"}
+{"id": "5746", "text": "what day of the week is twelfth", "label": "datetime_query"}
+{"id": "5756", "text": "ten past seven", "label": "datetime_query"}
+{"id": "5777", "text": "status of take away", "label": "takeaway_query"}
+{"id": "5835", "text": "when is my takeaway going to get here", "label": "takeaway_query"}
+{"id": "5867", "text": "tell me about the alarm timings", "label": "alarm_query"}
+{"id": "5884", "text": "to listen music", "label": "play_music"}
+{"id": "5890", "text": "list all set alarms", "label": "alarm_query"}
+{"id": "5915", "text": "give me the release date of this song", "label": "music_query"}
+{"id": "5933", "text": "give me moscow time", "label": "datetime_query"}
+{"id": "5945", "text": "remind my friend to get the assignment tomorrow", "label": "calendar_set"}
+{"id": "5980", "text": "what is the time in australia right now", "label": "datetime_query"}
+{"id": "5992", "text": "what have i played the most", "label": "music_query"}
+{"id": "5993", "text": "what kind of music am i into", "label": "music_query"}
+{"id": "6043", "text": "play next song of my selected", "label": "play_music"}
+{"id": "6113", "text": "hey order a side of hot wings with my previous order", "label": "takeaway_order"}
+{"id": "6114", "text": "hey order a pizza pie with extra cheese", "label": "takeaway_order"}
+{"id": "6118", "text": "hey what time is it in dallas texas", "label": "datetime_query"}
+{"id": "6130", "text": "play jumper by third eye blind", "label": "play_music"}
+{"id": "6150", "text": "find jazz music on my playlist", "label": "play_music"}
+{"id": "6461", "text": "i want topics on music", "label": "music_query"}
+{"id": "6470", "text": "how is my schedule for the day", "label": "calendar_query"}
+{"id": "6510", "text": "emails", "label": "email_query"}
+{"id": "6714", "text": "olly cancel business meeting on wednesday", "label": "calendar_remove"}
+{"id": "6715", "text": "delete the richard's wedding event next year", "label": "calendar_remove"}
+{"id": "6721", "text": "olly is there anything i should be reminded about", "label": "calendar_query"}
+{"id": "6722", "text": "is there anything i should be reminded about", "label": "calendar_query"}
+{"id": "6729", "text": "cancel the breakfast at tiffany's house", "label": "calendar_remove"}
+{"id": "6741", "text": "please put to my calendar daily stand-up to ten am", "label": "calendar_set"}
+{"id": "6755", "text": "please clean my calendar", "label": "calendar_remove"}
+{"id": "6757", "text": "put reminder to call pawel tomorrow", "label": "calendar_set"}
+{"id": "6760", "text": "cancel my five p. m. daily call", "label": "calendar_remove"}
+{"id": "6769", "text": "dismiss my next event", "label": "calendar_remove"}
+{"id": "6784", "text": "do i have any reminders", "label": "calendar_query"}
+{"id": "6810", "text": "can you remind me about the gym class in two hours", "label": "calendar_set"}
+{"id": "6817", "text": "olly i need to remember to get to the shops before they close", "label": "calendar_set"}
+{"id": "6819", "text": "olly there's a good band playing tonight at nine at jazz bar i want to go", "label": "calendar_set"}
+{"id": "6825", "text": "add a reminder on thursdays at eleven and thirty am and name it dance classes", "label": "calendar_set"}
+{"id": "6828", "text": "do i have any meetings on friday's afternoon", "label": "calendar_query"}
+{"id": "6839", "text": "do i have any meetings tomorrow", "label": "calendar_query"}
+{"id": "6850", "text": "list out my schedule today", "label": "calendar_query"}
+{"id": "6851", "text": "show up the events for me today", "label": "calendar_query"}
+{"id": "6852", "text": "show me the programs i have today", "label": "calendar_query"}
+{"id": "6872", "text": "can you deleted the current event", "label": "calendar_remove"}
+{"id": "6885", "text": "nice", "label": "calendar_set"}
+{"id": "6886", "text": "hi to all", "label": "calendar_set"}
+{"id": "6890", "text": "what are the show timings", "label": "calendar_query"}
+{"id": "6910", "text": "what's scheduled for the next three hours", "label": "calendar_query"}
+{"id": "6914", "text": "put monday meeting on calendar every monday", "label": "calendar_set"}
+{"id": "6925", "text": "is there any program for tomorrow evening", "label": "calendar_query"}
+{"id": "6926", "text": "is it friday", "label": "calendar_query"}
+{"id": "6932", "text": "what is my event schedule tomorrow", "label": "calendar_query"}
+{"id": "6933", "text": "what events are this week", "label": "calendar_query"}
+{"id": "6948", "text": "how many meetings do i have this week", "label": "calendar_query"}
+{"id": "6958", "text": "make sure there is no events on my calendar", "label": "calendar_remove"}
+{"id": "6966", "text": "how me all my pending reminders", "label": "calendar_query"}
+{"id": "6980", "text": "give me to do list", "label": "calendar_query"}
+{"id": "7011", "text": "add a meeting with john donaldson to my calendar and", "label": "calendar_set"}
+{"id": "7015", "text": "list all the meetings scheduled for today before six p. m.", "label": "calendar_query"}
+{"id": "7022", "text": "what are the reminder i had set for tomorrow", "label": "calendar_query"}
+{"id": "7029", "text": "reminders for card payments", "label": "calendar_set"}
+{"id": "7035", "text": "clear calendar for this month", "label": "calendar_remove"}
+{"id": "7045", "text": "add tal meeting this thursday to calendar", "label": "calendar_set"}
+{"id": "7051", "text": "add an event to my google calendar for the date march twenty second please", "label": "calendar_set"}
+{"id": "7058", "text": "november event delete", "label": "calendar_remove"}
+{"id": "7075", "text": "please delete my next calendar event", "label": "calendar_remove"}
+{"id": "7077", "text": "please delete the next event on my calendar", "label": "calendar_remove"}
+{"id": "7086", "text": "remove today's meeting at evening", "label": "calendar_remove"}
+{"id": "7104", "text": "make a calendar entry for brunch on saturday morning with chris kimberly and aaronson", "label": "calendar_set"}
+{"id": "7106", "text": "create a meeting thursday afternoon for budget review", "label": "calendar_set"}
+{"id": "7107", "text": "add my spin class to the calendar for saturday at seven am", "label": "calendar_set"}
+{"id": "7113", "text": "will there any events downtown this weekend", "label": "calendar_query"}
+{"id": "7114", "text": "let me know if there is a town meeting monday", "label": "calendar_query"}
+{"id": "7117", "text": "get rid of the events on the nineteenth from my calendar", "label": "calendar_remove"}
+{"id": "7128", "text": "remember me to send the presentation today at one p. m.", "label": "calendar_set"}
+{"id": "7129", "text": "please add brunch with erin to my calendar at the diner", "label": "calendar_set"}
+{"id": "7135", "text": "set a meeting for tomorrow", "label": "calendar_set"}
+{"id": "7138", "text": "calendar invite for breakfast with sarah at eight am", "label": "calendar_set"}
+{"id": "7141", "text": "is this program is scheduled", "label": "calendar_query"}
+{"id": "7142", "text": "what is on that date", "label": "calendar_query"}
+{"id": "7143", "text": "tell me this date program", "label": "calendar_query"}
+{"id": "7144", "text": "delete the party on june first from my calendar", "label": "calendar_remove"}
+{"id": "7145", "text": "i don't want to attend the dinner on march first any more so could you remove it from my agenda", "label": "calendar_remove"}
+{"id": "7151", "text": "for every odd numbered sunday set a reminder for", "label": "calendar_set"}
+{"id": "7158", "text": "please remove all the entries marked in the calendar", "label": "calendar_remove"}
+{"id": "7160", "text": "remind this after two days", "label": "calendar_set"}
+{"id": "7166", "text": "get me the details of upcoming oscar two thousand and seventeen", "label": "calendar_query"}
+{"id": "7178", "text": "please send a voicemail to mr. richard office about meting him on first of february twenty seventeen at five p. m.", "label": "email_sendemail"}
+{"id": "7179", "text": "please give me a two hour warning before next saturdays meeting", "label": "calendar_set"}
+{"id": "7191", "text": "create a birthday wish reminder for tomorrow at ten am", "label": "calendar_set"}
+{"id": "7201", "text": "what do i have going on next week", "label": "calendar_query"}
+{"id": "7204", "text": "can you set up a meeting with me", "label": "calendar_set"}
+{"id": "7206", "text": "note down important event in this week", "label": "calendar_set"}
+{"id": "7215", "text": "expectations", "label": "calendar_set"}
+{"id": "7217", "text": "please check and tell me about the reminders i have placed today", "label": "calendar_query"}
+{"id": "7220", "text": "do i have an appointment next wednesday at two", "label": "calendar_query"}
+{"id": "7234", "text": "tell next day's event", "label": "calendar_query"}
+{"id": "7235", "text": "please cancel my next hair cut", "label": "calendar_remove"}
+{"id": "7256", "text": "when is my next appointment and who do i contact to reschedule", "label": "calendar_query"}
+{"id": "7263", "text": "i finished it once", "label": "calendar_set"}
+{"id": "7266", "text": "what are my pending tasks", "label": "calendar_query"}
+{"id": "7286", "text": "remind me about next meeting in advance", "label": "calendar_set"}
+{"id": "7296", "text": "remove my scheduled calendar events if you could", "label": "calendar_remove"}
+{"id": "7298", "text": "please feed that i have meeting at five p. m.", "label": "calendar_set"}
+{"id": "7324", "text": "notify me when i am supposed to attend the dance recital on march fifth", "label": "calendar_set"}
+{"id": "7350", "text": "my calendar is to be updated with all rccg event in march", "label": "calendar_set"}
+{"id": "7370", "text": "my calendar is to be updated with all rccg march event", "label": "calendar_set"}
+{"id": "7376", "text": "available meetings in march are what", "label": "calendar_query"}
+{"id": "7382", "text": "are there more than two doctor's appointments in my calendar", "label": "calendar_query"}
+{"id": "7386", "text": "show me my reminders", "label": "calendar_query"}
+{"id": "7389", "text": "please remove dinner date scheduled for this friday at nine p. m.", "label": "calendar_remove"}
+{"id": "7391", "text": "i will no longer be joining mom for lunch tomorrow", "label": "calendar_remove"}
+{"id": "7401", "text": "add valentine's day with her tomorrow", "label": "calendar_set"}
+{"id": "7406", "text": "set repeating event gym day on calendar", "label": "calendar_set"}
+{"id": "7413", "text": "notify me about all meetings tomorrow", "label": "calendar_set"}
+{"id": "7454", "text": "remind me before monday", "label": "calendar_set"}
+{"id": "7457", "text": "please reschedule the meeting to six p. m. tomorrow and inform members", "label": "calendar_set"}
+{"id": "7471", "text": "set reminder for my wedding anniversary on ten july", "label": "calendar_set"}
+{"id": "7473", "text": "remind me of the meeting with my teacher today by five p. m.", "label": "calendar_set"}
+{"id": "7478", "text": "tell me all the pending reminders", "label": "calendar_query"}
+{"id": "7489", "text": "i have a meeting tomorrow at five p. m. with the development team don't forget to remind me an hour earlier", "label": "calendar_set"}
+{"id": "7490", "text": "remind me tomorrow morning of my schedules for tuesday", "label": "calendar_set"}
+{"id": "7496", "text": "do i have appointments today", "label": "calendar_query"}
+{"id": "7526", "text": "set on second january about soccer match of manchester", "label": "calendar_set"}
+{"id": "7528", "text": "thirteenth june is a day of election result please set it", "label": "calendar_set"}
+{"id": "7546", "text": "add mike's birthday on march third to my calendar", "label": "calendar_set"}
+{"id": "7559", "text": "remind me tonight to pick up my dry cleaning at eight p. m.", "label": "calendar_set"}
+{"id": "7562", "text": "remind me to go to my meeting tomorrow", "label": "calendar_set"}
+{"id": "7567", "text": "birthday", "label": "calendar_set"}
+{"id": "7585", "text": "please add event in calendar", "label": "calendar_set"}
+{"id": "7588", "text": "remind me clock that i have a event", "label": "calendar_set"}
+{"id": "7589", "text": "i have a event clock remind me", "label": "calendar_set"}
+{"id": "7592", "text": "from four to six when do i have a free break", "label": "calendar_query"}
+{"id": "7607", "text": "meeting with joanne in ten minutes in the conference room", "label": "calendar_set"}
+{"id": "7634", "text": "for the next three sundays remind me i have yoga class at noon", "label": "calendar_set"}
+{"id": "7639", "text": "add haircut to my appointments on saturday afternoon at four", "label": "calendar_set"}
+{"id": "7644", "text": "read upcoming event's", "label": "calendar_query"}
+{"id": "7658", "text": "alexa what is on my calendar for today", "label": "calendar_set"}
+{"id": "7663", "text": "can you read my meetings today", "label": "calendar_query"}
+{"id": "7666", "text": "will you mark that i have a meeting with tom at three tomorrow", "label": "calendar_set"}
+{"id": "7685", "text": "add mike and jack to festival calendar", "label": "calendar_set"}
+{"id": "7688", "text": "do i have any reminders pending", "label": "calendar_query"}
+{"id": "7704", "text": "hey turn on your reminders for tomorrow's meeting at ten am", "label": "calendar_set"}
+{"id": "7708", "text": "please set an alarm for tomorrows meeting at seven am", "label": "alarm_set"}
+{"id": "7709", "text": "please set an alarm for tomorrow's meeting at seven am", "label": "alarm_set"}
+{"id": "7723", "text": "tell me about the meeting i have this week", "label": "calendar_query"}
+{"id": "7734", "text": "remind me to go to the store every friday", "label": "calendar_set"}
+{"id": "7743", "text": "can you pull up the latest time so i won't be late for my appointment", "label": "calendar_query"}
+{"id": "7746", "text": "am i on vacation this week", "label": "calendar_query"}
+{"id": "7756", "text": "what is the next event in my calendar", "label": "calendar_query"}
+{"id": "7759", "text": "please remove that event from my calendar", "label": "calendar_remove"}
+{"id": "7771", "text": "what's my schedule today", "label": "calendar_query"}
+{"id": "7772", "text": "tell me about the meeting this week", "label": "calendar_query"}
+{"id": "7783", "text": "do i have a soccer game this weekend", "label": "calendar_query"}
+{"id": "7793", "text": "send an email to sarah about brunch today", "label": "email_sendemail"}
+{"id": "7800", "text": "set a reminder", "label": "calendar_set"}
+{"id": "7805", "text": "please set a monthly reminder for paying rent", "label": "calendar_set"}
+{"id": "7814", "text": "show me upcoming events in this area", "label": "recommendation_events"}
+{"id": "7837", "text": "delete all", "label": "calendar_remove"}
+{"id": "7845", "text": "how many reminders do i have made", "label": "calendar_query"}
+{"id": "7860", "text": "i have practice at wrigley tomorrow at six", "label": "calendar_set"}
+{"id": "7879", "text": "what are my next three events", "label": "calendar_query"}
+{"id": "7883", "text": "please remind me to pickup john at school today at one p. m.", "label": "calendar_set"}
+{"id": "7885", "text": "set meeting at seven p. m.", "label": "calendar_set"}
+{"id": "7888", "text": "please tell me where the fair is going to be this year", "label": "calendar_query"}
+{"id": "7902", "text": "set a meeting between myself and john at two p. m. tomorrow", "label": "calendar_set"}
+{"id": "7905", "text": "open calendar schedule event meeting", "label": "calendar_set"}
+{"id": "7913", "text": "remove the event from monday", "label": "calendar_remove"}
+{"id": "7918", "text": "calendar event send invite bill malinda", "label": "calendar_set"}
+{"id": "7922", "text": "open tasks delete future events", "label": "calendar_remove"}
+{"id": "7931", "text": "remind me about my eye exam at walmart on the twenty sixth", "label": "calendar_set"}
+{"id": "7934", "text": "let me know when i am three days out from this event in my calendar", "label": "calendar_set"}
+{"id": "7936", "text": "what is scheduled for today", "label": "calendar_query"}
+{"id": "7942", "text": "tell me what's going on tomorrow", "label": "calendar_query"}
+{"id": "7956", "text": "can you make this event repetitive", "label": "calendar_set"}
+{"id": "7960", "text": "delete everything on the menu", "label": "lists_remove"}
+{"id": "7962", "text": "format the calendar", "label": "calendar_remove"}
+{"id": "7975", "text": "is there valet service at the event", "label": "calendar_query"}
+{"id": "7976", "text": "what is the dress code for tonight", "label": "calendar_query"}
+{"id": "7979", "text": "remind me about meeting next week", "label": "calendar_set"}
+{"id": "8014", "text": "do i have a meeting for today in my calendar", "label": "calendar_query"}
+{"id": "8023", "text": "what is set for the weekend three weeks from now", "label": "calendar_query"}
+{"id": "8037", "text": "remind me to something in sometime", "label": "calendar_set"}
+{"id": "8038", "text": "please set a reminder for me to something in sometime", "label": "calendar_set"}
+{"id": "8045", "text": "what events are scheduled this week", "label": "calendar_query"}
+{"id": "8046", "text": "how many meetings do i have next week", "label": "calendar_query"}
+{"id": "8070", "text": "remind me to meet sarah at safeway in mckinleyville california at noon", "label": "calendar_set"}
+{"id": "8078", "text": "send me a reminder to pick up my dog from the groomer at one p. m.", "label": "calendar_set"}
+{"id": "8087", "text": "can i remove a reminder", "label": "calendar_remove"}
+{"id": "8094", "text": "when the meeting start", "label": "calendar_query"}
+{"id": "8107", "text": "set a birthday event for martin", "label": "calendar_set"}
+{"id": "8120", "text": "is mary's birthday party tonight", "label": "calendar_query"}
+{"id": "8133", "text": "set a remainder at three p. m. to pick jo", "label": "calendar_set"}
+{"id": "8142", "text": "please add a birthday party on saturday evening", "label": "calendar_set"}
+{"id": "8157", "text": "is the balloon festival this weekend", "label": "calendar_query"}
+{"id": "8171", "text": "will you remind me to go to hockey class every sunday afternoon", "label": "calendar_set"}
+{"id": "8185", "text": "remind me about the march sixteen meeting", "label": "calendar_set"}
+{"id": "8187", "text": "give me a days notice before my next meeting", "label": "calendar_set"}
+{"id": "8190", "text": "please clear my calendar for tomorrow", "label": "calendar_remove"}
+{"id": "8206", "text": "don't let me forget to buy a gift for my sister", "label": "calendar_set"}
+{"id": "8211", "text": "schedule and appointment with mike for next thursday morning", "label": "calendar_set"}
+{"id": "8212", "text": "do i have an appointment for lunch tomorrow", "label": "calendar_query"}
+{"id": "8214", "text": "is my daughter's play friday night", "label": "calendar_query"}
+{"id": "8216", "text": "what day is the meeting on", "label": "calendar_query"}
+{"id": "8218", "text": "do i have a lunch on friday", "label": "calendar_query"}
+{"id": "8242", "text": "olly clear everything off my calendar for the rest of the year", "label": "calendar_remove"}
+{"id": "8247", "text": "olly add tomorrow's dinner date to the calendar", "label": "calendar_set"}
+{"id": "8256", "text": "remove all scheduled events on my calendar please", "label": "calendar_remove"}
+{"id": "8261", "text": "send me an alert and hour before my next appointment", "label": "calendar_set"}
+{"id": "8265", "text": "remind me about tomorrow's meeting tonight", "label": "calendar_set"}
+{"id": "8270", "text": "notification of meeting on wednesday", "label": "calendar_set"}
+{"id": "8275", "text": "please clear jeff's birthday from the calendar", "label": "calendar_remove"}
+{"id": "8285", "text": "take birthday party off of calendar for may", "label": "calendar_remove"}
+{"id": "8300", "text": "save event for five p. m. to six p. m. on march eighteenth", "label": "calendar_set"}
+{"id": "8310", "text": "i need a repeating reminder for every monday at three hundred and thirty p. m.", "label": "calendar_set"}
+{"id": "8311", "text": "set a reminder for wednesdays at two p. m.", "label": "calendar_set"}
+{"id": "8335", "text": "i don't want any events listed on the calendar", "label": "calendar_remove"}
+{"id": "8338", "text": "when and where is june's birthday party", "label": "calendar_query"}
+{"id": "8346", "text": "remind yourself to remind me about needed to be reminded about that meeting", "label": "calendar_set"}
+{"id": "8356", "text": "when is bank holiday", "label": "calendar_query"}
+{"id": "8357", "text": "please add this event", "label": "calendar_set"}
+{"id": "8358", "text": "remind me about this", "label": "calendar_set"}
+{"id": "8361", "text": "remind me every tuesday to go to the dry cleaners", "label": "calendar_set"}
+{"id": "8364", "text": "where am i supposed to be wednesday from two to eleven", "label": "calendar_query"}
+{"id": "8365", "text": "i need a reminder at two hundred every day to check on my mother", "label": "calendar_set"}
+{"id": "8369", "text": "hey olly clear all my calendar appoints for today", "label": "calendar_remove"}
+{"id": "8372", "text": "hey siri make sure my calendar is completely clear tomorrow", "label": "calendar_remove"}
+{"id": "8399", "text": "add meet with dave at subway on weber on four april at five p. m.", "label": "calendar_set"}
+{"id": "8437", "text": "please set dinner plans at seven p. m. for every friday in april", "label": "calendar_set"}
+{"id": "8447", "text": "set a reminder for next saturday go to the library at five o'clock", "label": "calendar_set"}
+{"id": "8449", "text": "set a reminder for my daughters birthday", "label": "calendar_set"}
+{"id": "8456", "text": "when's the closest concert at ford's", "label": "calendar_query"}
+{"id": "8463", "text": "remove my calendar event at one p. m. today", "label": "calendar_remove"}
+{"id": "8477", "text": "could you delete this event", "label": "calendar_remove"}
+{"id": "8496", "text": "tell my meetings for tomorrow morning", "label": "calendar_query"}
+{"id": "8512", "text": "set a reminder to go to movies with ron on march twenty seven", "label": "calendar_set"}
+{"id": "8516", "text": "delete calendar item", "label": "calendar_remove"}
+{"id": "8540", "text": "tell me later about", "label": "calendar_set"}
+{"id": "8543", "text": "what events do i have coming up", "label": "calendar_query"}
+{"id": "8546", "text": "wipe my calendar clean", "label": "calendar_remove"}
+{"id": "8548", "text": "delete the next event on the calendar", "label": "calendar_remove"}
+{"id": "8566", "text": "am i free between six to seven p. m.", "label": "calendar_query"}
+{"id": "8569", "text": "i want you to schedule a meeting with bryce jessie and carol for tomorrow at nine am", "label": "calendar_set"}
+{"id": "8572", "text": "can you enter an event to my calendar", "label": "calendar_set"}
+{"id": "8581", "text": "tell me the locations of my meetings for today", "label": "calendar_query"}
+{"id": "8586", "text": "what do i have scheduled today", "label": "calendar_query"}
+{"id": "8592", "text": "remind me tomorrow at two p. m.", "label": "calendar_set"}
+{"id": "8593", "text": "set alarm for tomorrow at two p. m.", "label": "alarm_set"}
+{"id": "8607", "text": "call linda and remind her to pick me up for bowling", "label": "calendar_set"}
+{"id": "8614", "text": "schedule event for every wednesday", "label": "calendar_set"}
+{"id": "8630", "text": "remind me at the fifteenth of every month", "label": "calendar_set"}
+{"id": "8633", "text": "tell me when the event starts", "label": "calendar_set"}
+{"id": "8658", "text": "i need everything deleted from calendar please", "label": "calendar_remove"}
+{"id": "8660", "text": "please set a reminder for tuesdays at nine am", "label": "calendar_set"}
+{"id": "8661", "text": "add work to my calendar for every friday", "label": "calendar_set"}
+{"id": "8667", "text": "within the past three months how many meetings did i have with mr. richards", "label": "calendar_query"}
+{"id": "8670", "text": "remove events from calendar", "label": "calendar_remove"}
+{"id": "8671", "text": "when is the kiss concert", "label": "calendar_query"}
+{"id": "8673", "text": "what is my meeting at nine am", "label": "calendar_query"}
+{"id": "8689", "text": "put dinner with my sister on saturday", "label": "calendar_set"}
+{"id": "8696", "text": "schedule a meeting with al on tuesday", "label": "calendar_set"}
+{"id": "8707", "text": "show my upcoming events", "label": "calendar_query"}
+{"id": "8714", "text": "delete from the calendar the next event", "label": "calendar_remove"}
+{"id": "8716", "text": "is my schedule free today", "label": "calendar_query"}
+{"id": "8717", "text": "when is the doctor's appointment", "label": "calendar_query"}
+{"id": "8723", "text": "does my calendar say i'm free on april one two thousand and seventeen", "label": "calendar_query"}
+{"id": "8730", "text": "please set a reminder in my calendar for my meeting on march twenty five", "label": "calendar_set"}
+{"id": "8744", "text": "can you delete the next calendar event for which i was invited", "label": "calendar_remove"}
+{"id": "8763", "text": "what is the plan for tonight", "label": "calendar_query"}
+{"id": "8777", "text": "new calendar event for albert's marriage", "label": "calendar_set"}
+{"id": "8786", "text": "searching on holidays in my location", "label": "recommendation_events"}
+{"id": "8823", "text": "who do i have a meeting with on january nineteenth in the afternoon", "label": "calendar_query"}
+{"id": "8824", "text": "what do i have scheduled for the nineteenth at two p. m.", "label": "calendar_query"}
+{"id": "8830", "text": "erase all data from calendar", "label": "calendar_remove"}
+{"id": "8836", "text": "add to calendar october first at two p. m. lunch with ann", "label": "calendar_set"}
+{"id": "8837", "text": "on october first at two p. m. lunch with ann", "label": "calendar_set"}
+{"id": "8842", "text": "add to calendar may two is mary's birthday repeat every year", "label": "calendar_set"}
+{"id": "8845", "text": "make my calendar empty", "label": "calendar_remove"}
+{"id": "8856", "text": "delete all events in calendar", "label": "calendar_remove"}
+{"id": "8884", "text": "set an alarm for next tuesdays meeting", "label": "alarm_set"}
+{"id": "8892", "text": "add new event named anna to calendar", "label": "calendar_set"}
+{"id": "8895", "text": "calendar event with these people", "label": "calendar_set"}
+{"id": "8900", "text": "set repeating reminder for every sunday", "label": "calendar_set"}
+{"id": "8912", "text": "give me today's calendar events after six p. m.", "label": "calendar_query"}
+{"id": "8917", "text": "repeat calendar event", "label": "calendar_set"}
+{"id": "8933", "text": "when is the party scheduled", "label": "calendar_query"}
+{"id": "8940", "text": "when is my daughter birthday", "label": "calendar_query"}
+{"id": "8944", "text": "add remainder", "label": "calendar_set"}
+{"id": "8952", "text": "notify me of the meeting on tuesday", "label": "calendar_set"}
+{"id": "8953", "text": "let me know of the meeting on tuesday", "label": "calendar_set"}
+{"id": "8960", "text": "i want you to make alert in the evening about upcoming meeting", "label": "calendar_set"}
+{"id": "8971", "text": "cancel schedule for seven days from today", "label": "calendar_remove"}
+{"id": "8997", "text": "set on twenty second march badminton match in merita square", "label": "calendar_set"}
+{"id": "9013", "text": "remind me on fifth april there is a meeting with boss", "label": "calendar_set"}
+{"id": "9018", "text": "all meetings between tenth and thirteenth may", "label": "calendar_query"}
+{"id": "9038", "text": "remove meeting at dubai", "label": "calendar_remove"}
+{"id": "9039", "text": "delete marriage july three", "label": "calendar_remove"}
+{"id": "9043", "text": "upcoming events in calendar", "label": "calendar_set"}
+{"id": "9049", "text": "set an alarm for four p. m. tuesday", "label": "alarm_set"}
+{"id": "9053", "text": "set a meeting event reminder with mona on tuesday", "label": "calendar_set"}
+{"id": "9055", "text": "make an event reminder for a meeting with mona on tuesday", "label": "calendar_set"}
+{"id": "9060", "text": "what reminders do i have currently", "label": "calendar_query"}
+{"id": "9072", "text": "display my schedule for today", "label": "calendar_query"}
+{"id": "9079", "text": "next month my brothers birthday", "label": "calendar_set"}
+{"id": "9101", "text": "please remove the doctor appointment in my calendar for february twelfth at nine am", "label": "calendar_remove"}
+{"id": "9102", "text": "do i have anything scheduled for one p. m. next monday", "label": "calendar_query"}
+{"id": "9106", "text": "please reset my calendar back to day one", "label": "calendar_remove"}
+{"id": "9111", "text": "j.", "label": "calendar_set"}
+{"id": "9121", "text": "what days do i have booked", "label": "calendar_query"}
+{"id": "9140", "text": "need information about events before shift ends", "label": "calendar_query"}
+{"id": "9151", "text": "remind me about my lunch date for monday", "label": "calendar_set"}
+{"id": "9152", "text": "please tell me about a hour before thursday about my hair appointment", "label": "calendar_set"}
+{"id": "9154", "text": "i need to add baseball practice on saturday at two p. m.", "label": "calendar_set"}
+{"id": "9156", "text": "remind", "label": "calendar_set"}
+{"id": "9173", "text": "remind me about the meeting with dentist on the twenty third of may", "label": "calendar_set"}
+{"id": "9178", "text": "remove all the events on dec twenty sixth", "label": "calendar_remove"}
+{"id": "9180", "text": "set reminder for meeting with john on wednesday at nine am", "label": "calendar_set"}
+{"id": "9190", "text": "remind me in one hour about my meeting", "label": "calendar_set"}
+{"id": "9209", "text": "play music radio for me", "label": "play_radio"}
+{"id": "9254", "text": "please tune nine hundred and thirty eight f. m. radio mirchi", "label": "play_radio"}
+{"id": "9256", "text": "put the radio on", "label": "play_radio"}
+{"id": "9267", "text": "play the radio music band", "label": "play_radio"}
+{"id": "9269", "text": "tune in to eight hundred and ninety seven f. m.", "label": "play_radio"}
+{"id": "9273", "text": "i want to hear the radio turn it on please", "label": "play_radio"}
+{"id": "9274", "text": "play the radio on nine hundred and ninety nine f. m. only", "label": "play_radio"}
+{"id": "9278", "text": "start radio and go to frequency on nine hundred and forty three", "label": "play_radio"}
+{"id": "9290", "text": "please turn on ninety nine point five", "label": "play_radio"}
+{"id": "9306", "text": "start radio station for me", "label": "play_radio"}
+{"id": "9309", "text": "i want to hear this radio station now", "label": "play_radio"}
+{"id": "9313", "text": "find me kiss f. m. channel", "label": "play_radio"}
+{"id": "9315", "text": "turn the radio to kiss f. m.", "label": "play_radio"}
+{"id": "9338", "text": "i want to listen to nine hundred and forty one please", "label": "play_radio"}
+{"id": "9340", "text": "turn on channel nine hundred and fifty one", "label": "play_radio"}
+{"id": "9349", "text": "play new radio channel", "label": "play_radio"}
+{"id": "9355", "text": "radio on", "label": "play_radio"}
+{"id": "9367", "text": "please play some songs for kids", "label": "play_radio"}
+{"id": "9404", "text": "i'd like to listen to my favorite morning show in the car on the way to work please", "label": "play_radio"}
+{"id": "9408", "text": "start radio play", "label": "play_radio"}
+{"id": "9415", "text": "switch on the radio", "label": "play_radio"}
+{"id": "9421", "text": "start the i'm feeling lucky playlist on google play", "label": "play_music"}
+{"id": "9425", "text": "olly i want to hear a station that plays r. & b.", "label": "play_radio"}
+{"id": "9434", "text": "play a talk program about child care", "label": "play_radio"}
+{"id": "9438", "text": "can you play me a rap song on the radio", "label": "play_radio"}
+{"id": "9446", "text": "play my usher radio station", "label": "play_radio"}
+{"id": "9487", "text": "turn on bob and tom", "label": "play_radio"}
+{"id": "9497", "text": "give me a classical radio station", "label": "play_radio"}
+{"id": "9503", "text": "recorded program may be listened on future days", "label": "play_radio"}
+{"id": "9508", "text": "scan the radio for howard stern", "label": "play_radio"}
+{"id": "9526", "text": "put on radio mango", "label": "play_radio"}
+{"id": "9530", "text": "put on some love songs", "label": "play_radio"}
+{"id": "9545", "text": "i want to hear the bob cesca show", "label": "play_radio"}
+{"id": "9554", "text": "play romantic music in nash f. m. ninety two point seven", "label": "play_radio"}
+{"id": "9562", "text": "could you please play this program for me", "label": "play_radio"}
+{"id": "9569", "text": "ok google play one hundred and six point seven", "label": "play_radio"}
+{"id": "9573", "text": "want to play music", "label": "play_music"}
+{"id": "9574", "text": "play radio program name", "label": "play_radio"}
+{"id": "9579", "text": "start the pop radio station", "label": "play_radio"}
+{"id": "9586", "text": "play howard stern", "label": "play_radio"}
+{"id": "9596", "text": "red f. m. chit chat auto tune", "label": "play_radio"}
+{"id": "9605", "text": "can you play the radio please", "label": "play_radio"}
+{"id": "9606", "text": "play the programs in this required pad's", "label": "play_radio"}
+{"id": "9613", "text": "what are the florida radio stations", "label": "play_radio"}
+{"id": "9618", "text": "show me upcoming programs on one hundred and five point one", "label": "play_radio"}
+{"id": "9630", "text": "play radio mirchi for me", "label": "play_radio"}
+{"id": "9631", "text": "switch on the radio and play hello f. m. station", "label": "play_radio"}
+{"id": "9647", "text": "play radio station", "label": "play_radio"}
+{"id": "9650", "text": "i want to hear program one on lastfm", "label": "play_radio"}
+{"id": "9652", "text": "olly play netflix on my p. s. four", "label": "play_radio"}
+{"id": "9656", "text": "play me an upbeat song through your speakers", "label": "play_music"}
+{"id": "9667", "text": "please continue playing odd thomas by dean koontz", "label": "play_audiobook"}
+{"id": "9672", "text": "resume play of american gods", "label": "play_audiobook"}
+{"id": "9690", "text": "start playing again", "label": "play_audiobook"}
+{"id": "9691", "text": "open audio book history of rome", "label": "play_audiobook"}
+{"id": "9711", "text": "i want you to fast forward the audio then resume", "label": "play_audiobook"}
+{"id": "9718", "text": "resume animal farm", "label": "play_audiobook"}
+{"id": "9720", "text": "resume harry potter book four", "label": "play_audiobook"}
+{"id": "9723", "text": "start audiobook again", "label": "play_audiobook"}
+{"id": "9731", "text": "play the davinci code", "label": "play_audiobook"}
+{"id": "9735", "text": "resume recent audiobook", "label": "play_audiobook"}
+{"id": "9741", "text": "continue audiobook playback", "label": "play_audiobook"}
+{"id": "9766", "text": "play audiobook of jacob", "label": "play_audiobook"}
+{"id": "9770", "text": "play magic run after thirty min", "label": "play_audiobook"}
+{"id": "9777", "text": "resume inkheart", "label": "play_audiobook"}
+{"id": "9780", "text": "replay the god of small things", "label": "play_audiobook"}
+{"id": "9796", "text": "please restart the handmaid's tale", "label": "play_audiobook"}
+{"id": "9798", "text": "resume the last kingdom for me", "label": "play_audiobook"}
+{"id": "9805", "text": "play for me michael jackson song from audiobook", "label": "play_audiobook"}
+{"id": "9809", "text": "please play michael jackson album", "label": "play_music"}
+{"id": "9820", "text": "play fault in our stars on audible", "label": "play_audiobook"}
+{"id": "9821", "text": "resume the girl on the train on audible", "label": "play_audiobook"}
+{"id": "9844", "text": "continue the last chapter of the audio book i was listening to", "label": "play_audiobook"}
+{"id": "9849", "text": "audio book play jai ho", "label": "play_audiobook"}
+{"id": "9851", "text": "resume joes book from where i left off last time", "label": "play_audiobook"}
+{"id": "9857", "text": "my choice to play an audio from first", "label": "play_audiobook"}
+{"id": "9881", "text": "open audiobook", "label": "play_audiobook"}
+{"id": "9886", "text": "restart the audiobook heaven is for real", "label": "play_audiobook"}
+{"id": "9902", "text": "play me a random audio book that has to do with love", "label": "play_audiobook"}
+{"id": "9913", "text": "what ingredients do i need for tomato soup", "label": "cooking_recipe"}
+{"id": "9925", "text": "how much time do i have to boil an egg", "label": "cooking_recipe"}
+{"id": "9934", "text": "what can i cook with broccoli and chicken", "label": "cooking_recipe"}
+{"id": "9942", "text": "what all goes into a red velvet cake", "label": "cooking_recipe"}
+{"id": "9950", "text": "get me a recipe", "label": "cooking_recipe"}
+{"id": "9963", "text": "weird things people want to know", "label": "cooking_recipe"}
+{"id": "9993", "text": "how is pav bhaji cooked", "label": "cooking_recipe"}
+{"id": "10003", "text": "i want to cook pasta in american style show me how", "label": "cooking_recipe"}
+{"id": "10029", "text": "what temperature do you bake a potato", "label": "cooking_recipe"}
+{"id": "10053", "text": "how do i make pizza", "label": "cooking_recipe"}
+{"id": "10055", "text": "what's the recipe for fried chicken", "label": "cooking_recipe"}
+{"id": "10057", "text": "what do i need to make pot roast", "label": "cooking_recipe"}
+{"id": "10064", "text": "how many vegetables should i eat a day", "label": "cooking_recipe"}
+{"id": "10067", "text": "how do i make mashed potatoes", "label": "cooking_recipe"}
+{"id": "10074", "text": "how long do you cook an egg over easy", "label": "cooking_recipe"}
+{"id": "10081", "text": "tell me how to cook meatballs", "label": "cooking_recipe"}
+{"id": "10101", "text": "how do you cook steak", "label": "cooking_recipe"}
+{"id": "10102", "text": "show me how to cook lasagna", "label": "cooking_recipe"}
+{"id": "10117", "text": "how long does it take to make meatloaf", "label": "cooking_recipe"}
+{"id": "10118", "text": "what temperature do you cook pork on", "label": "cooking_recipe"}
+{"id": "10119", "text": "how long do you cook a fifteen pound turkey", "label": "cooking_recipe"}
+{"id": "10130", "text": "at what temperature should i bake cookies", "label": "cooking_recipe"}
+{"id": "10132", "text": "how long should i cook a steak to be medium", "label": "cooking_recipe"}
+{"id": "10147", "text": "look up recipes for four cheese omelet", "label": "cooking_recipe"}
+{"id": "10155", "text": "how do i cook chicken alfredo", "label": "cooking_recipe"}
+{"id": "10156", "text": "i need to know how to make stuffed peppers", "label": "cooking_recipe"}
+{"id": "10160", "text": "what goes with risotto", "label": "cooking_recipe"}
+{"id": "10165", "text": "how long do i boil a hard boiled egg", "label": "cooking_recipe"}
+{"id": "10177", "text": "how to cook spaghetti squash", "label": "cooking_recipe"}
+{"id": "10190", "text": "find chicken tikka recipe", "label": "cooking_recipe"}
+{"id": "10191", "text": "how to make chicken tikka", "label": "cooking_recipe"}
+{"id": "10192", "text": "recipe for spaghetti", "label": "cooking_recipe"}
+{"id": "10198", "text": "search for the best spagetti recipe", "label": "cooking_recipe"}
+{"id": "10204", "text": "explain how to sear a steak", "label": "cooking_recipe"}
+{"id": "10205", "text": "get me the recipe for rice", "label": "cooking_recipe"}
+{"id": "10207", "text": "please explain the rice recipe", "label": "cooking_recipe"}
+{"id": "10217", "text": "find the recipe for sambar in cookingforu application", "label": "cooking_recipe"}
+{"id": "10223", "text": "it would be tasty", "label": "cooking_recipe"}
+{"id": "10231", "text": "what are examples of spicy cuisines", "label": "cooking_recipe"}
+{"id": "10426", "text": "what else is missing in the diary", "label": "lists_query"}
+{"id": "10427", "text": "please clean my shopping list", "label": "lists_remove"}
+{"id": "10432", "text": "delete the shopping list", "label": "lists_remove"}
+{"id": "10452", "text": "take bread out from the shopping list", "label": "lists_remove"}
+{"id": "10462", "text": "get rid of a list", "label": "lists_remove"}
+{"id": "10470", "text": "remove a list of food items purchased last week", "label": "lists_remove"}
+{"id": "10471", "text": "i need to create a new to do list", "label": "lists_createoradd"}
+{"id": "10473", "text": "i need to put together a to-do list for work", "label": "lists_createoradd"}
+{"id": "10481", "text": "run over my to do list with me", "label": "lists_query"}
+{"id": "10482", "text": "make a list of all the clothing range available on ralph and lauren", "label": "lists_query"}
+{"id": "10488", "text": "make list", "label": "lists_createoradd"}
+{"id": "10495", "text": "remove table from furniture", "label": "lists_remove"}
+{"id": "10522", "text": "remove from the playlist my old english songs list", "label": "lists_remove"}
+{"id": "10536", "text": "create a new grocery list", "label": "lists_createoradd"}
+{"id": "10550", "text": "please start a new list", "label": "lists_createoradd"}
+{"id": "10564", "text": "please remove task list", "label": "lists_remove"}
+{"id": "10575", "text": "remove mike stein from contacts list", "label": "lists_remove"}
+{"id": "10588", "text": "show me the contents of the list", "label": "lists_query"}
+{"id": "10589", "text": "remove the excel file from the list", "label": "lists_remove"}
+{"id": "10590", "text": "remove the second row from the list", "label": "lists_remove"}
+{"id": "10603", "text": "list out all song", "label": "music_query"}
+{"id": "10608", "text": "search the item", "label": "lists_createoradd"}
+{"id": "10613", "text": "all food items with the prefix dry should be taken away from the list", "label": "lists_remove"}
+{"id": "10615", "text": "create a new list by tomorrow", "label": "lists_createoradd"}
+{"id": "10618", "text": "start a new grocery list", "label": "lists_createoradd"}
+{"id": "10621", "text": "add paav bhaji in menu card", "label": "lists_createoradd"}
+{"id": "10633", "text": "provide what is there on the list", "label": "lists_query"}
+{"id": "10637", "text": "the available lists", "label": "lists_query"}
+{"id": "10677", "text": "add build my resume to my to do list", "label": "lists_createoradd"}
+{"id": "10680", "text": "tell me what is my to do list for today", "label": "lists_query"}
+{"id": "10687", "text": "if there is event of show then remove it", "label": "lists_remove"}
+{"id": "10689", "text": "remove item three", "label": "lists_remove"}
+{"id": "10695", "text": "erase", "label": "lists_remove"}
+{"id": "10700", "text": "please add this item to the list", "label": "lists_createoradd"}
+{"id": "10702", "text": "the list should contain this item", "label": "lists_createoradd"}
+{"id": "10703", "text": "create shopping list for target", "label": "lists_createoradd"}
+{"id": "10729", "text": "remind me to take out the trash", "label": "calendar_set"}
+{"id": "10741", "text": "add something to my list", "label": "lists_createoradd"}
+{"id": "10748", "text": "delete that item from my list", "label": "lists_remove"}
+{"id": "10754", "text": "read back what i put on my to do list for this week", "label": "lists_query"}
+{"id": "10760", "text": "tell me that list i wrote two days ago", "label": "lists_query"}
+{"id": "10764", "text": "add ashley to the wedding invite list", "label": "lists_createoradd"}
+{"id": "10767", "text": "are eggs on my shopping list", "label": "lists_query"}
+{"id": "10774", "text": "could you open my list app and check for groceries please", "label": "lists_query"}
+{"id": "10782", "text": "what are my tasks", "label": "lists_query"}
+{"id": "10790", "text": "delete item from list", "label": "lists_remove"}
+{"id": "10792", "text": "i need to make a list", "label": "lists_createoradd"}
+{"id": "10813", "text": "alexa add grocery shopping to my to do list", "label": "lists_createoradd"}
+{"id": "10833", "text": "what's on my to do list", "label": "lists_query"}
+{"id": "10834", "text": "what's on my shopping list", "label": "lists_query"}
+{"id": "10835", "text": "tell me what's on my shopping list", "label": "lists_query"}
+{"id": "10841", "text": "can you please update me on my lists", "label": "lists_query"}
+{"id": "10849", "text": "take off this list", "label": "lists_remove"}
+{"id": "10869", "text": "anything else left on the list", "label": "lists_query"}
+{"id": "10880", "text": "show grocery list", "label": "lists_query"}
+{"id": "10881", "text": "find my shopping list and delete it", "label": "lists_remove"}
+{"id": "10888", "text": "cancel list", "label": "lists_remove"}
+{"id": "10890", "text": "give me the shopping list", "label": "lists_query"}
+{"id": "10898", "text": "please add list of things to buy for party", "label": "lists_createoradd"}
+{"id": "10903", "text": "get eggs on the list", "label": "lists_createoradd"}
+{"id": "10910", "text": "read my lists to me", "label": "lists_query"}
+{"id": "10915", "text": "begin a new list", "label": "lists_createoradd"}
+{"id": "10932", "text": "what songs are on my favorite list", "label": "lists_query"}
+{"id": "10938", "text": "please add sugar to my grocery list", "label": "lists_createoradd"}
+{"id": "10957", "text": "remind me of how many lists i have", "label": "lists_query"}
+{"id": "10971", "text": "add pencil to school supplies list", "label": "lists_createoradd"}
+{"id": "10979", "text": "what's on your list right now", "label": "lists_query"}
+{"id": "10980", "text": "tell me what is in your list", "label": "lists_query"}
+{"id": "11001", "text": "create a new list for me", "label": "lists_createoradd"}
+{"id": "11005", "text": "create a blank list", "label": "lists_createoradd"}
+{"id": "11015", "text": "put the item on the list", "label": "lists_createoradd"}
+{"id": "11018", "text": "do i have repair work today", "label": "lists_query"}
+{"id": "11024", "text": "delete to do list", "label": "lists_remove"}
+{"id": "11025", "text": "erase shopping list", "label": "lists_remove"}
+{"id": "11032", "text": "start a grocery list", "label": "lists_createoradd"}
+{"id": "11043", "text": "please remove the grocery list from my set of lists", "label": "lists_remove"}
+{"id": "11053", "text": "get rid of the list google", "label": "lists_remove"}
+{"id": "11059", "text": "name the lists available", "label": "lists_query"}
+{"id": "11082", "text": "can you find my lists", "label": "lists_query"}
+{"id": "11086", "text": "add milk to my grocery list", "label": "lists_createoradd"}
+{"id": "11098", "text": "get rid of tax list from nineteen ninety", "label": "lists_remove"}
+{"id": "11108", "text": "there are anything in my list", "label": "lists_query"}
+{"id": "11118", "text": "do i have any lists for the upcoming week", "label": "lists_query"}
+{"id": "11120", "text": "delete apples from my shopping list", "label": "lists_remove"}
+{"id": "11121", "text": "i don't need apples remove it from my shopping list", "label": "lists_remove"}
+{"id": "11125", "text": "give me the details on purchase order", "label": "lists_query"}
+{"id": "11133", "text": "remove the guest list i created last week", "label": "lists_remove"}
+{"id": "11138", "text": "please remove the list", "label": "lists_remove"}
+{"id": "11141", "text": "please find all name start with alphabetic of a and create a list", "label": "lists_createoradd"}
+{"id": "11166", "text": "open google keep", "label": "lists_query"}
+{"id": "11179", "text": "create a list of books to be ordered", "label": "lists_createoradd"}
+{"id": "11181", "text": "my work schedule", "label": "calendar_query"}
+{"id": "11183", "text": "my new health check up new list", "label": "lists_createoradd"}
+{"id": "11200", "text": "remove the list of things to do", "label": "lists_remove"}
+{"id": "11204", "text": "important house information", "label": "lists_query"}
+{"id": "11216", "text": "state the list i have", "label": "lists_query"}
+{"id": "11234", "text": "tell me my list names", "label": "lists_query"}
+{"id": "11244", "text": "tell me what is on my grocery list for this week", "label": "lists_query"}
+{"id": "11251", "text": "olly read back my grocery list to me", "label": "lists_query"}
+{"id": "11255", "text": "what's still on the list", "label": "lists_query"}
+{"id": "11279", "text": "go to the podcast and play the next episode in friends", "label": "play_podcasts"}
+{"id": "11286", "text": "play the young turks podcast", "label": "play_podcasts"}
+{"id": "11292", "text": "go to the end of the podcast", "label": "play_podcasts"}
+{"id": "11295", "text": "play my latest podcast", "label": "play_podcasts"}
+{"id": "11311", "text": "play the next episode", "label": "play_podcasts"}
+{"id": "11313", "text": "i want to see the previous episode", "label": "play_podcasts"}
+{"id": "11335", "text": "play and shuffle all slow music songs", "label": "play_music"}
+{"id": "11343", "text": "move to the next episode of hipsterhood", "label": "play_podcasts"}
+{"id": "11346", "text": "keep going on podcast", "label": "play_podcasts"}
+{"id": "11352", "text": "please let me know the train time to washington", "label": "play_podcasts"}
+{"id": "11357", "text": "can you search c. n. n.", "label": "play_podcasts"}
+{"id": "11359", "text": "please play next episode", "label": "play_podcasts"}
+{"id": "11370", "text": "i want to listen to m. c.'s podcast", "label": "play_podcasts"}
+{"id": "11375", "text": "play podcast", "label": "play_podcasts"}
+{"id": "11380", "text": "play next nutritional facts", "label": "play_podcasts"}
+{"id": "11388", "text": "launch the rooster teeth podcast", "label": "play_podcasts"}
+{"id": "11390", "text": "can i see the next episode of the podcast", "label": "play_podcasts"}
+{"id": "11396", "text": "play stuff you should know", "label": "play_podcasts"}
+{"id": "11400", "text": "skip this episode", "label": "play_podcasts"}
+{"id": "11401", "text": "please play the newest podcast", "label": "play_podcasts"}
+{"id": "11409", "text": "please skip to the next podcast episode", "label": "play_podcasts"}
+{"id": "11419", "text": "listen to duncan trussel's latest podcast", "label": "play_podcasts"}
+{"id": "11422", "text": "start the podcast i was last listening to", "label": "play_podcasts"}
+{"id": "11437", "text": "please play the podcast for me", "label": "play_podcasts"}
+{"id": "11442", "text": "please play the latest bill simmons podcast", "label": "play_podcasts"}
+{"id": "11446", "text": "go to next podcast", "label": "play_podcasts"}
+{"id": "11452", "text": "play favorited podcasts on fishing", "label": "play_podcasts"}
+{"id": "11460", "text": "i want to listen to a sports podcast", "label": "play_podcasts"}
+{"id": "11477", "text": "play episode of stuff you should know in queue", "label": "play_podcasts"}
+{"id": "11484", "text": "play previous episode", "label": "play_podcasts"}
+{"id": "11490", "text": "play the next show on podcast", "label": "play_podcasts"}
+{"id": "11530", "text": "play the podcast of barack obama saved in device", "label": "play_podcasts"}
+{"id": "11541", "text": "next episode of nyt podcast", "label": "play_podcasts"}
+{"id": "11547", "text": "list and play all theory podcasts under ten minutes", "label": "play_podcasts"}
+{"id": "11548", "text": "network podcast", "label": "play_podcasts"}
+{"id": "11559", "text": "play podcast favorites", "label": "play_podcasts"}
+{"id": "11571", "text": "what bands are playing close by", "label": "recommendation_events"}
+{"id": "11573", "text": "what's around tonight", "label": "recommendation_events"}
+{"id": "11576", "text": "tell me about the events near me", "label": "recommendation_events"}
+{"id": "11578", "text": "find events near by", "label": "recommendation_events"}
+{"id": "11580", "text": "is there any grocery nearby", "label": "recommendation_locations"}
+{"id": "11581", "text": "where is a petrol station in five mile radius", "label": "recommendation_locations"}
+{"id": "11582", "text": "is there anything happening on jazz scene around edinburgh", "label": "recommendation_events"}
+{"id": "11600", "text": "what movie can i watch tonight on the theater here in boston", "label": "recommendation_events"}
+{"id": "11602", "text": "what are the best italian restaurants in los angeles", "label": "recommendation_locations"}
+{"id": "11612", "text": "what gun shows are in tulsa", "label": "recommendation_events"}
+{"id": "11633", "text": "what movies are showing in cinema today", "label": "recommendation_movies"}
+{"id": "11640", "text": "is there any carnival taking place in our area", "label": "recommendation_events"}
+{"id": "11648", "text": "is there any concerts taking place in new york today", "label": "recommendation_events"}
+{"id": "11654", "text": "search for nearby chinese restaurants", "label": "recommendation_locations"}
+{"id": "11660", "text": "provide me with the list of great restaurants in a", "label": "recommendation_locations"}
+{"id": "11667", "text": "what's around me", "label": "recommendation_locations"}
+{"id": "11676", "text": "alexa locate me the amazon restaurants", "label": "recommendation_locations"}
+{"id": "11709", "text": "best restaurant in local area", "label": "recommendation_locations"}
+{"id": "11710", "text": "best shop in local area", "label": "recommendation_locations"}
+{"id": "11716", "text": "near by grocery", "label": "recommendation_locations"}
+{"id": "11717", "text": "markets near by", "label": "recommendation_locations"}
+{"id": "11729", "text": "make a to do list while visiting the yellow stone national park", "label": "recommendation_events"}
+{"id": "11736", "text": "is swat a good movie", "label": "recommendation_movies"}
+{"id": "11744", "text": "olly what are new drama movies opening this weekend", "label": "recommendation_movies"}
+{"id": "11757", "text": "olly recommend a wine tasting event this weekend in chicago", "label": "recommendation_events"}
+{"id": "11767", "text": "olly what events are happening in pondichery this weekend", "label": "recommendation_events"}
+{"id": "11768", "text": "what events are happening in pondichery this weekend", "label": "recommendation_events"}
+{"id": "11769", "text": "can you tell me list of events for this weekend in pondichery", "label": "recommendation_events"}
+{"id": "11771", "text": "olly what movies are playing right now", "label": "recommendation_movies"}
+{"id": "11776", "text": "where can i get a good burger within five miles", "label": "recommendation_locations"}
+{"id": "11777", "text": "find grocery store with an organic section near me", "label": "recommendation_locations"}
+{"id": "11785", "text": "logan", "label": "recommendation_movies"}
+{"id": "11789", "text": "what events are in my area", "label": "recommendation_events"}
+{"id": "11811", "text": "what is playing at amc twenty", "label": "recommendation_movies"}
+{"id": "11812", "text": "what movies are playing tonight", "label": "recommendation_movies"}
+{"id": "11833", "text": "is there a canoe shop around here", "label": "recommendation_locations"}
+{"id": "11838", "text": "what should i do this weekend", "label": "recommendation_events"}
+{"id": "11854", "text": "what events are ongoing today in biloxi", "label": "recommendation_events"}
+{"id": "11855", "text": "please recommend a movie", "label": "recommendation_movies"}
+{"id": "11902", "text": "find local shops", "label": "recommendation_locations"}
+{"id": "11903", "text": "search for local shops", "label": "recommendation_locations"}
+{"id": "11906", "text": "tell me about activities in my area this weekend", "label": "recommendation_events"}
+{"id": "11908", "text": "olly what's some upcoming events i might want to go to", "label": "recommendation_events"}
+{"id": "11917", "text": "i need something fun to do this weekend nearby can you give me ideas", "label": "recommendation_events"}
+{"id": "11921", "text": "is there any festivals this weekend", "label": "recommendation_events"}
+{"id": "11930", "text": "what new movies are good", "label": "recommendation_movies"}
+{"id": "11942", "text": "can you find me a furniture store near me", "label": "recommendation_locations"}
+{"id": "11979", "text": "are there any events going on in milan", "label": "recommendation_events"}
+{"id": "11983", "text": "olly recommend a romantic comedy in me area", "label": "recommendation_movies"}
+{"id": "11991", "text": "show me what shops are around me", "label": "recommendation_locations"}
+{"id": "12020", "text": "tell me what clothing stores are within five miles of me", "label": "recommendation_locations"}
+{"id": "12030", "text": "show local events near me", "label": "recommendation_events"}
+{"id": "12039", "text": "ask a restaurant in my area", "label": "recommendation_locations"}
+{"id": "12057", "text": "local theater screening which movie", "label": "recommendation_movies"}
+{"id": "12058", "text": "are there any good movies running in nearby theaters", "label": "recommendation_movies"}
+{"id": "12059", "text": "what's happening near me this week", "label": "recommendation_events"}
+{"id": "12062", "text": "show upcoming local events", "label": "recommendation_events"}
+{"id": "12067", "text": "where can i go shopping here", "label": "recommendation_locations"}
+{"id": "12071", "text": "olly how much are tickets at wonder works", "label": "recommendation_events"}
+{"id": "12073", "text": "refer local current events", "label": "recommendation_events"}
+{"id": "12076", "text": "list all the nearby shops", "label": "recommendation_locations"}
+{"id": "12078", "text": "list all the events being held in the vicinity", "label": "recommendation_events"}
+{"id": "12099", "text": "olly what's playing in the roosendaal cinema", "label": "recommendation_movies"}
+{"id": "12101", "text": "olly search events and meetups for central park west", "label": "recommendation_events"}
+{"id": "12110", "text": "find a kid friendly event in my area for tonight", "label": "recommendation_events"}
+{"id": "12113", "text": "any farm markets around with local products", "label": "recommendation_locations"}
+{"id": "12115", "text": "find shoe shopping near my home", "label": "recommendation_locations"}
+{"id": "12126", "text": "hey i want to get trains to manchester on wednesday", "label": "transport_ticket"}
+{"id": "12139", "text": "book a train for me", "label": "transport_ticket"}
+{"id": "12152", "text": "what is the most convenient hour to catch a train to york on saturday", "label": "transport_query"}
+{"id": "12170", "text": "what is the traffic like right now on telegraph", "label": "transport_traffic"}
+{"id": "12176", "text": "set up a taxi for eleven am tomorrow", "label": "transport_taxi"}
+{"id": "12179", "text": "what is the traffic situation right in broadway street", "label": "transport_traffic"}
+{"id": "12187", "text": "latest news on traffic at my current location", "label": "transport_traffic"}
+{"id": "12190", "text": "where is the closest train depot", "label": "transport_query"}
+{"id": "12211", "text": "is there any train plying from pune to mumbai tonight", "label": "transport_query"}
+{"id": "12216", "text": "book a plane ticket to", "label": "transport_ticket"}
+{"id": "12222", "text": "what is the traffic like", "label": "transport_traffic"}
+{"id": "12225", "text": "is there any traffic right now", "label": "transport_traffic"}
+{"id": "12244", "text": "book a taxi to go to the movies at one", "label": "transport_taxi"}
+{"id": "12246", "text": "is there a train from philadelphia to new york city at noon", "label": "transport_query"}
+{"id": "12254", "text": "tell me about city traffic", "label": "transport_traffic"}
+{"id": "12255", "text": "what about the new york city traffic", "label": "transport_traffic"}
+{"id": "12259", "text": "do you have a traffic update", "label": "transport_traffic"}
+{"id": "12262", "text": "can i get a train ticket to chicago for next saturday around noon", "label": "transport_query"}
+{"id": "12265", "text": "diverge", "label": "transport_query"}
+{"id": "12297", "text": "hail taxi", "label": "transport_taxi"}
+{"id": "12307", "text": "search for two tickets on tuesday's train to paris", "label": "transport_ticket"}
+{"id": "12320", "text": "call a taxi", "label": "transport_taxi"}
+{"id": "12333", "text": "book a ticket for me on a train to get to boston tomorrow what is available", "label": "transport_ticket"}
+{"id": "12335", "text": "find me the distance and direction by train to rccg in ikoyi lagos", "label": "transport_query"}
+{"id": "12371", "text": "get me a ride to hospital", "label": "transport_taxi"}
+{"id": "12376", "text": "what is the first metro to d. c.", "label": "transport_query"}
+{"id": "12378", "text": "book me a ride", "label": "transport_taxi"}
+{"id": "12387", "text": "when does the last train from work leave", "label": "transport_query"}
+{"id": "12392", "text": "tell me today's direction", "label": "transport_query"}
+{"id": "12409", "text": "where is the nearest gas station", "label": "recommendation_locations"}
+{"id": "12417", "text": "when is the last train today", "label": "transport_query"}
+{"id": "12419", "text": "fastest route to turiellos", "label": "transport_query"}
+{"id": "12420", "text": "where is the nearest target", "label": "transport_query"}
+{"id": "12423", "text": "how was the traffic now", "label": "transport_traffic"}
+{"id": "12424", "text": "outside traffic status please", "label": "transport_traffic"}
+{"id": "12425", "text": "what are the train times at millennium station departing toward indiana today", "label": "transport_query"}
+{"id": "12433", "text": "i need a train ticket to denver", "label": "transport_query"}
+{"id": "12436", "text": "how long will it take to get to the airport", "label": "transport_query"}
+{"id": "12437", "text": "what is the commute time to the theater", "label": "transport_query"}
+{"id": "12444", "text": "what are the train times to chicago", "label": "transport_query"}
+{"id": "12454", "text": "when does the last train to clarksville leave", "label": "transport_query"}
+{"id": "12457", "text": "where is the closest mexican restaurant", "label": "transport_query"}
+{"id": "12460", "text": "open train routes", "label": "transport_query"}
+{"id": "12463", "text": "please reserve an uber right now", "label": "transport_taxi"}
+{"id": "12477", "text": "can you get me a taxi home", "label": "transport_taxi"}
+{"id": "12478", "text": "find an uber driver available for tonight after ten p. m.", "label": "transport_taxi"}
+{"id": "12481", "text": "find me an uber", "label": "transport_taxi"}
+{"id": "12489", "text": "i need a ticket on the train to new york city tomorrow", "label": "transport_ticket"}
+{"id": "12517", "text": "can you reserve a train ticket for this day", "label": "transport_ticket"}
+{"id": "12524", "text": "book me the cheapest train ticket to new york", "label": "transport_ticket"}
+{"id": "12525", "text": "show me the directions to the closest starbucks", "label": "transport_query"}
+{"id": "12539", "text": "what time does the train depart from downtown los angeles to santa barbara", "label": "transport_query"}
+{"id": "12547", "text": "olly find a ride to the bar", "label": "transport_taxi"}
+{"id": "12560", "text": "i need a taxi uber", "label": "transport_taxi"}
+{"id": "12561", "text": "book a train ticket for friday april fourteenth for boston", "label": "transport_ticket"}
+{"id": "12580", "text": "nearest way to return home", "label": "transport_query"}
+{"id": "12591", "text": "olly get me a train ticket to atlanta", "label": "transport_query"}
+{"id": "12598", "text": "tell me where i should go for times", "label": "transport_ticket"}
+{"id": "12605", "text": "find me the earliest train ticket departing friday morning to miami", "label": "transport_ticket"}
+{"id": "12617", "text": "please send me info on how to go about purchasing a train ticket to new york", "label": "transport_query"}
+{"id": "12635", "text": "find a non stop train to seattle", "label": "transport_ticket"}
+{"id": "12660", "text": "book me a train ride", "label": "transport_ticket"}
+{"id": "12675", "text": "is traffic light", "label": "transport_traffic"}
+{"id": "12684", "text": "could you find a train back home at around seven p. m.", "label": "transport_query"}
+{"id": "12685", "text": "what is the traffic like right now", "label": "transport_traffic"}
+{"id": "12690", "text": "how is the traffic on i twenty five", "label": "transport_traffic"}
+{"id": "12692", "text": "how much traffic does atlanta georgia usually have", "label": "transport_traffic"}
+{"id": "12706", "text": "book train ticket for this time", "label": "transport_ticket"}
+{"id": "12715", "text": "call a taxi to pick me up right now", "label": "transport_taxi"}
+{"id": "12723", "text": "buy me a ticket to boston", "label": "transport_ticket"}
+{"id": "12724", "text": "find me a train ticket to boston", "label": "transport_ticket"}
+{"id": "12741", "text": "what street do i take to get to downtown", "label": "transport_query"}
+{"id": "12755", "text": "book me an uber ride to go home", "label": "transport_taxi"}
+{"id": "12756", "text": "order me an uber ride please", "label": "transport_taxi"}
+{"id": "12762", "text": "please book a train ticket to", "label": "transport_ticket"}
+{"id": "12763", "text": "i need a train ticket to", "label": "transport_ticket"}
+{"id": "12764", "text": "book a train ticket to", "label": "transport_ticket"}
+{"id": "12781", "text": "request a taxi from udrive service", "label": "transport_taxi"}
+{"id": "12788", "text": "give me a traffic update", "label": "transport_traffic"}
+{"id": "12789", "text": "can you tell me about the traffic", "label": "transport_traffic"}
+{"id": "12802", "text": "book a ticket to ny by train", "label": "transport_ticket"}
+{"id": "12803", "text": "please book train ticket to new york", "label": "transport_ticket"}
+{"id": "12819", "text": "can you reserve a ticket to grand rapids by train", "label": "transport_query"}
+{"id": "12820", "text": "show traffic", "label": "transport_traffic"}
+{"id": "12821", "text": "traffic", "label": "transport_traffic"}
+{"id": "12833", "text": "alexa book me a train ticket for this afternoon to chicago", "label": "transport_ticket"}
+{"id": "12851", "text": "show me direction to my home", "label": "transport_query"}
+{"id": "12852", "text": "show me route to my phone location on yesterday twelve p. m.", "label": "transport_query"}
+{"id": "12858", "text": "show map", "label": "transport_query"}
+{"id": "12861", "text": "when is the next train to rome coming", "label": "transport_query"}
+{"id": "12862", "text": "is there any traffic", "label": "transport_traffic"}
+{"id": "12867", "text": "uber please", "label": "transport_taxi"}
+{"id": "12879", "text": "search earliest trains to brooklyn ny weekends and holidays", "label": "transport_query"}
+{"id": "12901", "text": "please let me know the time of train northern rail", "label": "transport_query"}
+{"id": "12908", "text": "what time does the train arrive in sacremento", "label": "transport_query"}
+{"id": "12919", "text": "open the uber app and get me a car please", "label": "transport_taxi"}
+{"id": "13177", "text": "remind me to move so there is no weight gain", "label": "calendar_set"}
+{"id": "13257", "text": "where to buy cannon cameras", "label": "recommendation_locations"}
+{"id": "13402", "text": "when i get home can you please order a pizza", "label": "takeaway_order"}
+{"id": "13630", "text": "where's the closest zoo to where i'm at", "label": "recommendation_locations"}
+{"id": "14212", "text": "find the exact location of the places", "label": "recommendation_locations"}
+{"id": "14465", "text": "directions to disney land", "label": "transport_query"}
+{"id": "14646", "text": "tell me about the cheapest flight fares to nj today", "label": "transport_ticket"}
+{"id": "15016", "text": "what is the quickest route by boat to japan", "label": "transport_query"}
+{"id": "15138", "text": "check my social networks", "label": "social_query"}
+{"id": "15144", "text": "get the status posted for the following", "label": "social_post"}
+{"id": "15184", "text": "how many likes does my status from yesterday have", "label": "social_query"}
+{"id": "15192", "text": "check my twitter notification", "label": "social_query"}
+{"id": "15200", "text": "get me latest updates from facebook", "label": "social_query"}
+{"id": "15204", "text": "live show reminders", "label": "social_query"}
+{"id": "15211", "text": "send a post in instagram", "label": "social_post"}
+{"id": "15235", "text": "hello google post my current status on twitter mentioning a great trip to paris with friends and family", "label": "social_post"}
+{"id": "15240", "text": "please alexa tell me the latest video going viral on twitter for topic narendra modi", "label": "social_query"}
+{"id": "15267", "text": "anything new on social media", "label": "social_query"}
+{"id": "15281", "text": "instagram", "label": "social_query"}
+{"id": "15289", "text": "post the message now", "label": "social_post"}
+{"id": "15301", "text": "trending social media", "label": "social_query"}
+{"id": "15305", "text": "do i have any notifications from social media", "label": "calendar_query"}
+{"id": "15317", "text": "today is my husbands birthday", "label": "social_post"}
+{"id": "15320", "text": "please give me the latest feed updates", "label": "social_query"}
+{"id": "15321", "text": "has anyone commented on my status", "label": "social_query"}
+{"id": "15322", "text": "who's birthdays are today on facebook", "label": "social_query"}
+{"id": "15328", "text": "check instagram", "label": "social_query"}
+{"id": "15336", "text": "place family phone on instagram", "label": "social_post"}
+{"id": "15347", "text": "is there any new vegan news on facebook", "label": "social_query"}
+{"id": "15369", "text": "tweet comcast and tell them that their service is down again", "label": "social_post"}
+{"id": "15373", "text": "message at bobburgers they screwed up my order and i had to wait an extra hour", "label": "social_post"}
+{"id": "15380", "text": "post picture to facebook", "label": "social_post"}
+{"id": "15381", "text": "tweet lfi and let them know my app crashed", "label": "social_post"}
+{"id": "15393", "text": "complain to the restaurant about the food i was served", "label": "social_post"}
+{"id": "15397", "text": "tell them that their lines were too long", "label": "social_post"}
+{"id": "15400", "text": "forward a complaint to simran aapa kadai about the food quality", "label": "social_post"}
+{"id": "15422", "text": "send this message to at microsoft on twitter", "label": "social_post"}
+{"id": "15429", "text": "post comment from my phone on facebook", "label": "social_post"}
+{"id": "15437", "text": "tweet a customer complaint to the subway website", "label": "social_post"}
+{"id": "15450", "text": "tweet consumer service that the quantity is wrong", "label": "social_post"}
+{"id": "15451", "text": "tweet the following directv has horrible customer service", "label": "social_post"}
+{"id": "15455", "text": "send tweet to united airlines i'm angry you lost my bags", "label": "social_post"}
+{"id": "15466", "text": "tell comcast i am still on hold", "label": "social_post"}
+{"id": "15468", "text": "tweet a complaint to apple that their battery life is terrible", "label": "social_post"}
+{"id": "15474", "text": "send a message to national grid that the power is out again", "label": "social_post"}
+{"id": "15475", "text": "let national grid know the power is out again", "label": "social_post"}
+{"id": "15483", "text": "post to facebook i'm home", "label": "social_post"}
+{"id": "15495", "text": "pull up a complaint for a. o. l.", "label": "social_post"}
+{"id": "15513", "text": "is there anything important happening on social media", "label": "social_query"}
+{"id": "15514", "text": "tweet complaint to samsung", "label": "social_post"}
+{"id": "15517", "text": "please tweet for me about the bad service rended by the taj restaurant", "label": "social_post"}
+{"id": "15520", "text": "tweet complaint to american eagle customer service", "label": "social_post"}
+{"id": "15522", "text": "call the customer cell through email", "label": "social_post"}
+{"id": "15539", "text": "brief me about my news feed stories", "label": "social_query"}
+{"id": "15552", "text": "tweet at wendys that i don't like their product", "label": "social_post"}
+{"id": "15568", "text": "compose a tweet for youtube", "label": "social_post"}
+{"id": "15579", "text": "hi what kind of pictures you uploaded in pinterest", "label": "social_query"}
+{"id": "15581", "text": "olly send a tweet to company", "label": "social_post"}
+{"id": "15593", "text": "tweet complain at comcast", "label": "social_post"}
+{"id": "15599", "text": "open company name and find forms", "label": "social_post"}
+{"id": "15603", "text": "send a complaint to walmart on twitter", "label": "social_post"}
+{"id": "15630", "text": "what are the latest photos on my instagram account", "label": "social_query"}
+{"id": "15637", "text": "tweet pizza hut their delivery guy is an hour late", "label": "social_post"}
+{"id": "15650", "text": "who has written to me or mentioned me in social media", "label": "social_query"}
+{"id": "15654", "text": "tweet to olx costumer service the next i didn't receive my order number one thousand one hundred and seventy six", "label": "social_post"}
+{"id": "15665", "text": "start complaint to walmart", "label": "social_post"}
+{"id": "15673", "text": "tweet to bank about non receipt of checkbook", "label": "social_post"}
+{"id": "15675", "text": "this may brings given of these proble small to us", "label": "social_post"}
+{"id": "15681", "text": "tweet at macy's two weeks after purchase and the hems have all come loose", "label": "social_post"}
+{"id": "15691", "text": "show me the customer service number for mcdonalds", "label": "social_post"}
+{"id": "15692", "text": "could please tweet that the kinley water bottle was charged for more than maximum retail price at the movies", "label": "social_post"}
+{"id": "15696", "text": "tweet to consumer service that they should strive to be more accommodating", "label": "social_post"}
+{"id": "15712", "text": "i want to make a complaint to the consumer", "label": "social_post"}
+{"id": "15721", "text": "tweet a disgusted face about mcdonalds", "label": "social_post"}
+{"id": "15727", "text": "tweet a complaint to comcast", "label": "social_post"}
+{"id": "15728", "text": "write this complaint to comcasts customer service twitter", "label": "social_post"}
+{"id": "15729", "text": "comcast sucks put that on their twitter account", "label": "social_post"}
+{"id": "15734", "text": "post a status on my twitter account", "label": "social_post"}
+{"id": "15738", "text": "olly please tweet a complaint about a store i visit", "label": "social_post"}
+{"id": "15745", "text": "olly add new email to anna", "label": "email_addcontact"}
+{"id": "15755", "text": "send email to my brother", "label": "email_sendemail"}
+{"id": "15759", "text": "please send email to pawel with reminder", "label": "email_sendemail"}
+{"id": "15760", "text": "email to pawel regarding latest news", "label": "email_sendemail"}
+{"id": "15777", "text": "tell me if i have new emails", "label": "email_query"}
+{"id": "15780", "text": "email to caroline how are you can you send me updates on last project cheers tomasz", "label": "email_sendemail"}
+{"id": "15781", "text": "hey google email to caroline how are you can you send me updates on last project cheers tomasz", "label": "email_sendemail"}
+{"id": "15788", "text": "do i have any new emails", "label": "email_query"}
+{"id": "15793", "text": "what is job title of jan medvesek", "label": "email_querycontact"}
+{"id": "15794", "text": "where seth lives", "label": "email_querycontact"}
+{"id": "15808", "text": "olly has robert emails me yet", "label": "email_query"}
+{"id": "15810", "text": "has david got back to me yet", "label": "email_query"}
+{"id": "15823", "text": "did i get anything new from my boss", "label": "email_query"}
+{"id": "15824", "text": "are there any email updates", "label": "email_query"}
+{"id": "15831", "text": "start a new email to", "label": "email_sendemail"}
+{"id": "15832", "text": "send to the contact an email as follows", "label": "email_sendemail"}
+{"id": "15855", "text": "forward email address to my new email", "label": "email_sendemail"}
+{"id": "15859", "text": "forward shown content to blahblah at blah dot com with email", "label": "email_sendemail"}
+{"id": "15874", "text": "please check if there is a new email on the inbox", "label": "email_query"}
+{"id": "15882", "text": "watch out my new mails on inbox", "label": "email_query"}
+{"id": "15901", "text": "what is john's phone number", "label": "email_querycontact"}
+{"id": "15905", "text": "check all the new them emails and mark them star", "label": "email_query"}
+{"id": "15924", "text": "list emails from jim for today", "label": "email_query"}
+{"id": "15925", "text": "email family", "label": "email_sendemail"}
+{"id": "15929", "text": "check to see if new emails have come from title nine", "label": "email_query"}
+{"id": "15930", "text": "let me know if there are any new emails from ebay", "label": "email_query"}
+{"id": "15941", "text": "please reply to the email", "label": "email_sendemail"}
+{"id": "15987", "text": "add this new email with contact", "label": "email_addcontact"}
+{"id": "15991", "text": "email ashwin patel my best wishes and an attachment of work p. d. f.", "label": "email_sendemail"}
+{"id": "15996", "text": "email staff group distribution about tomorrow's meeting", "label": "email_sendemail"}
+{"id": "16002", "text": "check for new email", "label": "email_query"}
+{"id": "16012", "text": "olly send an email to jesse", "label": "email_sendemail"}
+{"id": "16016", "text": "what's jesse's number", "label": "email_querycontact"}
+{"id": "16017", "text": "what's june's address nowadays", "label": "email_querycontact"}
+{"id": "16023", "text": "alexa add jpearsonjessica at gmail dot com to email contacts", "label": "email_addcontact"}
+{"id": "16053", "text": "send raj a mail for job", "label": "email_sendemail"}
+{"id": "16074", "text": "add this email to my address book", "label": "email_addcontact"}
+{"id": "16085", "text": "email george brown", "label": "email_sendemail"}
+{"id": "16093", "text": "let me know of any incoming emails for the last hour please", "label": "email_query"}
+{"id": "16094", "text": "send an email to sharon", "label": "email_sendemail"}
+{"id": "16105", "text": "search the contact", "label": "email_querycontact"}
+{"id": "16113", "text": "my friend emails me to check", "label": "email_query"}
+{"id": "16121", "text": "reply back to emily", "label": "email_sendemail"}
+{"id": "16122", "text": "make a new email for emily", "label": "email_sendemail"}
+{"id": "16129", "text": "send email thank you very much to sarah as a reply", "label": "email_sendemail"}
+{"id": "16137", "text": "what is the first five subjects in the email", "label": "email_query"}
+{"id": "16142", "text": "compose an email to aran", "label": "email_sendemail"}
+{"id": "16155", "text": "what is the address of tara john", "label": "email_querycontact"}
+{"id": "16163", "text": "who mailed me yesterday", "label": "email_query"}
+{"id": "16165", "text": "did charlotte responded", "label": "email_query"}
+{"id": "16186", "text": "tell me the street address of my facebook friend george", "label": "email_querycontact"}
+{"id": "16189", "text": "send email to my uncle about situation of current weather", "label": "email_sendemail"}
+{"id": "16197", "text": "what is jeff's number", "label": "email_querycontact"}
+{"id": "16213", "text": "send an email to dad how is the weather this week", "label": "email_sendemail"}
+{"id": "16230", "text": "how many text messages has john smith sent me in the last twelve months", "label": "email_query"}
+{"id": "16233", "text": "shoot dale an email response warning him about the gulls at the beach", "label": "email_sendemail"}
+{"id": "16238", "text": "send an email", "label": "email_sendemail"}
+{"id": "16256", "text": "read the contact number of alex from phone book", "label": "email_querycontact"}
+{"id": "16284", "text": "apply search and check", "label": "email_querycontact"}
+{"id": "16319", "text": "reply to all", "label": "email_sendemail"}
+{"id": "16334", "text": "do i have any new emails from john smith", "label": "email_query"}
+{"id": "16338", "text": "open new emails", "label": "email_query"}
+{"id": "16345", "text": "i need to send a new email here is the address and then add it to the contact list", "label": "email_sendemail"}
+{"id": "16350", "text": "what is john doe's address", "label": "email_querycontact"}
+{"id": "16354", "text": "check for emails from my employer", "label": "email_query"}
+{"id": "16366", "text": "who's emailed me recently", "label": "email_query"}
+{"id": "16367", "text": "who sent me emails this week", "label": "email_query"}
+{"id": "16391", "text": "has john smith sent me any new email", "label": "email_query"}
+{"id": "16398", "text": "please send the email to jeff", "label": "email_sendemail"}
+{"id": "16399", "text": "have i gotten any new email", "label": "email_query"}
+{"id": "16404", "text": "send email to tim", "label": "email_sendemail"}
+{"id": "16406", "text": "alexa start email", "label": "email_sendemail"}
+{"id": "16413", "text": "show all emails sent to me from my boss", "label": "email_query"}
+{"id": "16422", "text": "new emails received in past hour", "label": "email_query"}
+{"id": "16423", "text": "send email to robert what time is dinner", "label": "email_sendemail"}
+{"id": "16434", "text": "tell my family this in an email", "label": "email_sendemail"}
+{"id": "16435", "text": "i want to start my email out like this", "label": "email_sendemail"}
+{"id": "16447", "text": "how many recent emails have this sender or subject line", "label": "email_query"}
+{"id": "16450", "text": "what's my friend joe's phone number", "label": "email_querycontact"}
+{"id": "16454", "text": "send an email to my boss saying i will be late", "label": "email_sendemail"}
+{"id": "16471", "text": "check emails from john", "label": "email_query"}
+{"id": "16482", "text": "read me the email from mom including the subject", "label": "email_query"}
+{"id": "16488", "text": "any new emails", "label": "email_query"}
+{"id": "16492", "text": "show last email from mom", "label": "email_query"}
+{"id": "16511", "text": "send chris an email say do you have plans tonight want to go to dinner", "label": "email_sendemail"}
+{"id": "16513", "text": "do i have any mails", "label": "email_query"}
+{"id": "16514", "text": "do i have any mails olly", "label": "email_query"}
+{"id": "16520", "text": "show me my emails from the past hour", "label": "email_query"}
+{"id": "16527", "text": "remind me when mom sends me an email", "label": "email_query"}
+{"id": "16532", "text": "make a call to", "label": "email_querycontact"}
+{"id": "16538", "text": "would you open the email and i would like to compose a new one", "label": "email_sendemail"}
+{"id": "16555", "text": "what street does sarah live on check my phone book", "label": "email_querycontact"}
+{"id": "16567", "text": "email dad about fixing my car", "label": "email_sendemail"}
+{"id": "16570", "text": "send an email to all my company workers", "label": "email_sendemail"}
+{"id": "16591", "text": "i just got an email from bill i need to answer it right now", "label": "email_sendemail"}
+{"id": "16599", "text": "delete this email", "label": "email_sendemail"}
+{"id": "16603", "text": "what does the email say that was sent thirty minutes ago from mom", "label": "email_query"}
+{"id": "16609", "text": "tell me if i have any unread new emails", "label": "email_query"}
+{"id": "16610", "text": "i need to see if i got any new email", "label": "email_query"}
+{"id": "16621", "text": "please add to my contact lists and send them a reminder email", "label": "email_addcontact"}
+{"id": "16633", "text": "i have a new email address can you send an email", "label": "email_sendemail"}
+{"id": "16643", "text": "did the boss send anything", "label": "email_query"}
+{"id": "16644", "text": "prepare to send an outgoing reply message", "label": "email_sendemail"}
+{"id": "16645", "text": "do i have a number for jerry", "label": "email_querycontact"}
+{"id": "16658", "text": "send an email to scott asking what the weather will be like this week", "label": "email_sendemail"}
+{"id": "16666", "text": "do i have any incoming emails", "label": "email_query"}
+{"id": "16684", "text": "tell me joe joe's home address", "label": "email_querycontact"}
+{"id": "16688", "text": "compose email to a new address", "label": "email_sendemail"}
+{"id": "16689", "text": "reply to joes email", "label": "email_sendemail"}
+{"id": "16693", "text": "add lowes hardware to my contact emails located in cleveland ohio", "label": "email_addcontact"}
+{"id": "16696", "text": "read freds emails", "label": "email_query"}
+{"id": "16704", "text": "have i received any emails in the past two hours", "label": "email_query"}
+{"id": "16719", "text": "let me know any new emails i've received", "label": "email_query"}
+{"id": "16723", "text": "can you see what andrew emailed me about", "label": "email_query"}
+{"id": "16728", "text": "tell sean i appreciate him reaching out to me", "label": "email_sendemail"}
+{"id": "16736", "text": "i'd like to send a reply", "label": "email_sendemail"}
+{"id": "16743", "text": "send the following email to my sister", "label": "email_sendemail"}
+{"id": "16752", "text": "check my email please", "label": "email_query"}
+{"id": "16756", "text": "dictate new email", "label": "email_sendemail"}
+{"id": "16767", "text": "recent emails", "label": "email_query"}
+{"id": "16775", "text": "show me new emails from my inbox", "label": "email_query"}
+{"id": "16786", "text": "update outlook mailbox", "label": "email_query"}
+{"id": "16788", "text": "who did i email recently", "label": "email_query"}
+{"id": "16804", "text": "display all unread messages from my gmail account", "label": "email_query"}
+{"id": "16806", "text": "did any emails come for me in the last five hours", "label": "email_query"}
+{"id": "16816", "text": "what's my latest email", "label": "email_query"}
+{"id": "16825", "text": "check for all emails from tom brady", "label": "email_query"}
+{"id": "16834", "text": "hello has my inbox gone up", "label": "email_query"}
+{"id": "16843", "text": "check my mail", "label": "email_query"}
+{"id": "16862", "text": "what sapp", "label": "email_querycontact"}
+{"id": "16864", "text": "can you add a new email to my contacts", "label": "email_addcontact"}
+{"id": "16873", "text": "email naty for her birthday", "label": "email_sendemail"}
+{"id": "16875", "text": "tell me the area code for jen k.", "label": "email_querycontact"}
+{"id": "16880", "text": "email jerry regarding the meeting", "label": "email_sendemail"}
+{"id": "16916", "text": "hey reply a mail which i received", "label": "email_sendemail"}
+{"id": "16920", "text": "check mail with subject", "label": "email_query"}
+{"id": "16931", "text": "show new emails from katey", "label": "email_query"}
+{"id": "16936", "text": "the email reply should state", "label": "email_sendemail"}
+{"id": "16939", "text": "reply my address to john", "label": "email_sendemail"}
+{"id": "16953", "text": "how do i contact charles", "label": "email_querycontact"}
+{"id": "16957", "text": "begin email to my husband", "label": "email_sendemail"}
+{"id": "16968", "text": "is there anything new in my email folder", "label": "email_query"}
+{"id": "16981", "text": "mail send to ashok", "label": "email_sendemail"}
+{"id": "16995", "text": "send email to jessica", "label": "email_sendemail"}
+{"id": "17000", "text": "show me my last email", "label": "email_query"}
+{"id": "17004", "text": "show all emails of contract", "label": "email_query"}
+{"id": "17010", "text": "is there a new mail from jay in the inbox", "label": "email_query"}
+{"id": "17016", "text": "i want a reply to the email", "label": "email_sendemail"}
+{"id": "17020", "text": "reply to last received email", "label": "email_sendemail"}
+{"id": "17036", "text": "check all new emails in my inbox", "label": "email_query"}
+{"id": "17046", "text": "please let me know new emails from michael", "label": "email_query"}
+{"id": "17050", "text": "refresh email", "label": "email_query"}
+{"id": "17051", "text": "get me new email", "label": "email_query"}
+{"id": "17055", "text": "add a new email in my contacts from john", "label": "email_addcontact"}
+{"id": "17056", "text": "see my inbox for mail i received from sarah", "label": "email_query"}
+{"id": "17062", "text": "add this email to my contact", "label": "email_addcontact"}
+{"id": "17088", "text": "check for me new emails received from peter", "label": "email_query"}
+{"id": "17093", "text": "send email to marissa", "label": "email_sendemail"}
+{"id": "17098", "text": "show me any emails received in the last hour", "label": "email_query"}
+{"id": "17100", "text": "please check my inbox and tell me if there are any new arrivals", "label": "email_query"}
+{"id": "17103", "text": "raju phone book", "label": "email_querycontact"}
+{"id": "17125", "text": "start a reply to marleen's most recent email", "label": "email_sendemail"}
+{"id": "17133", "text": "any high priority emails", "label": "email_query"}
+{"id": "17140", "text": "please respond to the email i just read", "label": "email_sendemail"}
+{"id": "17150", "text": "alexa i want to check julia's available dates so would you send her mail and ask about it", "label": "email_sendemail"}
+{"id": "17157", "text": "do i have any new email from joe", "label": "email_query"}
+{"id": "17168", "text": "please find a email from my friend tiffany", "label": "email_query"}
