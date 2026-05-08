@@ -71,6 +71,7 @@ class SimpleAutoResearchAgent:
     def run(self) -> dict[str, Any]:
         workspace_dir = self.output_dir / "workspace"
         history_dir = self.output_dir / "history"
+        prompt_debug_path = self.output_dir / "kimi_prompts.jsonl"
         _prepare_output_dir(self.output_dir, workspace_dir, history_dir)
 
         best_snapshot_path = workspace_dir / "best_train.py"
@@ -100,6 +101,7 @@ class SimpleAutoResearchAgent:
                 last_feedback=last_feedback,
                 current_best_result=current_best_result,
             )
+            append_prompt_debug(prompt_debug_path, trial, request_payload)
             response_processing_start: float | None = None
             candidate_summary = dict(DEFAULT_CANDIDATE_SUMMARY)
             try:
@@ -262,6 +264,11 @@ def build_source_messages(
         "- Must define build_submission_config(), run_training(settings, config), and predict(settings, config).",
         "- Must include one AUTORESEARCH_SUMMARY comment near the top.",
         '- The summary comment must look like: # AUTORESEARCH_SUMMARY: {"action": "...", "reason": "..."}',
+        "- Use the previous epoch_history to diagnose underfitting, overfitting, unstable learning rate, or insufficient training.",
+        "- If train_loss and val_loss are both high or still decreasing, consider increasing model capacity, epochs, or improving optimization, as long as runtime is safely below the 120s budget.",
+        "- If train_loss decreases but val_loss worsens, consider stronger regularization, smaller model capacity, lower learning rate, or early stopping.",
+        "- Use runtime_seconds compared with the 120s budget to decide whether increasing epochs, hidden dimensions, embedding size, or other compute-heavy changes is feasible.",
+        "- Avoid changes that are likely to exceed the 120s limit.",
         "",
         "Current train.py source:",
         current_train_source,
@@ -488,14 +495,65 @@ def is_better_result(candidate: dict[str, Any], incumbent: dict[str, Any]) -> bo
     )
 
 
+def format_epoch_history(result: dict[str, Any]) -> str:
+    epoch_history = result.get("epoch_history")
+    if not isinstance(epoch_history, list) or not epoch_history:
+        return "epoch_history unavailable"
+    lines = []
+    for index, row in enumerate(epoch_history, start=1):
+        if not isinstance(row, dict):
+            continue
+        epoch = row.get("epoch", index)
+        lines.append(
+            f"Epoch {epoch}: "
+            f"train_loss={row.get('train_loss')}, "
+            f"val_loss={row.get('val_loss')}, "
+            f"train_accuracy={row.get('train_accuracy')}, "
+            f"val_accuracy={row.get('val_accuracy')}"
+        )
+    return "\n".join(lines) if lines else "epoch_history unavailable"
+
+
+def format_time_budget_feedback(result: dict[str, Any], time_budget_seconds: float) -> str:
+    runtime_seconds = result.get("runtime_seconds")
+    if runtime_seconds is None:
+        return "runtime_seconds unavailable"
+    try:
+        runtime = float(runtime_seconds)
+    except (TypeError, ValueError):
+        return "runtime_seconds unavailable"
+    remaining = max(0.0, float(time_budget_seconds) - runtime)
+    ratio = 100.0 * runtime / float(time_budget_seconds) if time_budget_seconds else 0.0
+    return (
+        f"Training runtime: {runtime:.1f}s / {float(time_budget_seconds):.1f}s budget.\n"
+        f"Remaining budget: {remaining:.1f}s.\n"
+        f"Runtime ratio: {ratio:.1f}%."
+    )
+
+
+def format_runtime_summary(result: dict[str, Any], time_budget_seconds: float) -> str:
+    runtime_seconds = result.get("runtime_seconds")
+    if runtime_seconds is None:
+        return "unavailable"
+    try:
+        runtime = float(runtime_seconds)
+    except (TypeError, ValueError):
+        return "unavailable"
+    return f"{runtime:.1f}s/{float(time_budget_seconds):.0f}s"
+
+
 def build_accepted_feedback(summary: dict[str, str], result: dict[str, Any]) -> str:
     return (
-        "Previous trial succeeded and became the new best candidate. "
-        f"action={summary['action']}; reason={summary['reason']}; "
-        f"best_val_accuracy={result.get('best_val_accuracy')}; "
-        f"val_loss={result.get('val_loss')}; "
-        f"train_loss={result.get('train_loss')}; "
-        f"train_accuracy={result.get('train_accuracy')}."
+        "Previous trial succeeded and became the new best candidate.\n"
+        f"action={summary['action']}\n"
+        f"reason={summary['reason']}\n"
+        f"best_val_accuracy={result.get('best_val_accuracy')}\n"
+        f"val_loss={result.get('val_loss')}\n"
+        f"train_loss={result.get('train_loss')}\n"
+        f"train_accuracy={result.get('train_accuracy')}\n"
+        f"{format_time_budget_feedback(result, DEFAULT_TRAINING_TIME_BUDGET_SECONDS)}\n"
+        "epoch_history:\n"
+        f"{format_epoch_history(result)}"
     )
 
 
@@ -505,21 +563,31 @@ def build_rejected_feedback(
     best_result: dict[str, Any],
 ) -> str:
     return (
-        "Previous trial did not improve over the current best. "
-        f"action={summary['action']}; reason={summary['reason']}; "
+        "Previous trial did not improve over the current best.\n"
+        f"action={summary['action']}\n"
+        f"reason={summary['reason']}\n"
         f"candidate_best_val_accuracy={candidate_result.get('best_val_accuracy')} vs "
-        f"best_val_accuracy={best_result.get('best_val_accuracy')}; "
+        f"best_val_accuracy={best_result.get('best_val_accuracy')}\n"
         f"candidate_val_loss={candidate_result.get('val_loss')} vs "
-        f"best_val_loss={best_result.get('val_loss')}. "
-        "Do not repeat a similar modification unless there is a clear new reason."
+        f"best_val_loss={best_result.get('val_loss')}\n"
+        f"{format_time_budget_feedback(candidate_result, DEFAULT_TRAINING_TIME_BUDGET_SECONDS)}\n"
+        "epoch_history:\n"
+        f"{format_epoch_history(candidate_result)}\n"
+        "Use the training curve to diagnose whether the failure looks like overfitting, underfitting, "
+        "unstable learning rate, or insufficient training. Do not repeat a similar modification unless "
+        "there is a clear new reason."
     )
 
 
 def build_error_feedback(summary: dict[str, str], error: str) -> str:
+    timeout_hint = ""
+    if "exceeded" in error and "120.0s limit" in error:
+        timeout_hint = " The run exceeded the 120s training time limit."
     return (
         "Previous trial proposal failed. "
         f"action={summary['action']}; reason={summary['reason']}; "
         f"error={short_error(error)}."
+        f"{timeout_hint}"
     )
 
 
@@ -529,7 +597,8 @@ def build_accepted_history_entry(trial: int, summary: dict[str, str], result: di
         f"action={summary['action']} | "
         f"reason={summary['reason']} | "
         f"best_val_accuracy={result.get('best_val_accuracy')} | "
-        f"val_loss={result.get('val_loss')}"
+        f"val_loss={result.get('val_loss')} | "
+        f"runtime={format_runtime_summary(result, DEFAULT_TRAINING_TIME_BUDGET_SECONDS)}"
     )
 
 
@@ -546,7 +615,8 @@ def build_rejected_history_entry(
         f"candidate_best_val_accuracy={candidate_result.get('best_val_accuracy')} | "
         f"best_val_accuracy={best_result.get('best_val_accuracy')} | "
         f"candidate_val_loss={candidate_result.get('val_loss')} | "
-        f"best_val_loss={best_result.get('val_loss')}"
+        f"best_val_loss={best_result.get('val_loss')} | "
+        f"runtime={format_runtime_summary(candidate_result, DEFAULT_TRAINING_TIME_BUDGET_SECONDS)}"
     )
 
 
@@ -668,9 +738,20 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
+def append_prompt_debug(path: Path, trial: int, request_payload: dict[str, Any]) -> None:
+    debug_payload = {
+        "trial": trial,
+        "model": request_payload.get("model"),
+        "temperature": request_payload.get("temperature"),
+        "messages": request_payload.get("messages"),
+    }
+    with path.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(debug_payload, ensure_ascii=False) + "\n")
+
+
 def _prepare_output_dir(output_dir: Path, workspace_dir: Path, history_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
-    for name in ("results.tsv", "prediction.csv", "run_manifest.json"):
+    for name in ("results.tsv", "prediction.csv", "run_manifest.json", "kimi_prompts.jsonl"):
         target = output_dir / name
         if target.exists():
             target.unlink()

@@ -1,0 +1,45 @@
+nohup: ignoring input
+[Kimi][trial 001] sending request...
+[Kimi][trial 001] response received after 122.37s
+[Kimi][trial 001] response processed in 14.53s
+[trial 001] Best validation accuracy: 0.7942
+[Kimi][trial 002] sending request...
+[Kimi][trial 002] response received after 128.75s
+[Kimi][trial 002] response processed in 24.72s
+[trial 002] Best validation accuracy: 0.8384
+[Kimi][trial 003] sending request...
+[Kimi][trial 003] response received after 126.39s
+[Kimi][trial 003] response processed in 47.59s
+[trial 003] Best validation accuracy: 0.8750
+[Kimi][trial 004] sending request...
+[Kimi][trial 004] response received after 126.65s
+[Kimi][trial 004] response processed in 60.31s
+[trial 004] Best validation accuracy: 0.8796
+[Kimi][trial 005] sending request...
+[Kimi][trial 005] response received after 143.78s
+[Kimi][trial 005] response processed in 97.20s
+[trial 005] Best validation accuracy: 0.8811
+[Kimi][trial 006] sending request...
+[Kimi][trial 006] response received after 145.98s
+[Kimi][trial 006] response processed in 73.40s
+[trial 006] Best validation accuracy: 0.8811
+[Kimi][trial 007] sending request...
+[Kimi][trial 007] response received after 131.30s
+[Kimi][trial 007] response processed in 86.96s
+[trial 007] Best validation accuracy: 0.8811
+[Kimi][trial 008] sending request...
+[Kimi][trial 008] response received after 144.78s
+[Kimi][trial 008] response processed in 111.00s
+[trial 008] Best validation accuracy: 0.8811
+[Kimi][trial 009] sending request...
+[Kimi][trial 009] response received after 165.42s
+[Kimi][trial 009] response processed in 86.20s
+[trial 009] Best validation accuracy: 0.8811
+[Kimi][trial 010] sending request...
+[Kimi][trial 010] response received after 154.19s
+[Kimi][trial 010] response processing failed after 120.41s
+[trial 010] Best validation accuracy: 0.8811
+Trials: 10
+Best validation accuracy: 0.8811
+Best local test accuracy: 0.858421052631579
+Artifacts saved to: runs/agent
