@@ -264,9 +264,10 @@ def build_source_messages(
         "- Must define build_submission_config(), run_training(settings, config), and predict(settings, config).",
         "- Must include one AUTORESEARCH_SUMMARY comment near the top.",
         '- The summary comment must look like: # AUTORESEARCH_SUMMARY: {"action": "...", "reason": "..."}',
-        "- Use the previous epoch_history to diagnose underfitting, overfitting, unstable learning rate, or insufficient training.",
-        "- If train_loss and val_loss are both high or still decreasing, consider increasing model capacity, epochs, or improving optimization, as long as runtime is safely below the 120s budget.",
-        "- If train_loss decreases but val_loss worsens, consider stronger regularization, smaller model capacity, lower learning rate, or early stopping.",
+        "- Use the previous train_accuracy and val_accuracy gap to diagnose overfitting or underfitting.",
+        "- If train_accuracy is much higher than val_accuracy, consider stronger regularization, smaller model capacity, lower learning rate, or early stopping.",
+        "- If both train_accuracy and val_accuracy are low, consider increasing model capacity, epochs, or improving optimization, as long as runtime is safely below the 120s budget.",
+        "- If train_accuracy and val_accuracy are close and validation accuracy is still improving, consider modestly increasing epochs or model capacity within the time budget.",
         "- Use runtime_seconds compared with the 120s budget to decide whether increasing epochs, hidden dimensions, embedding size, or other compute-heavy changes is feasible.",
         "- Avoid changes that are likely to exceed the 120s limit.",
         "",
@@ -495,25 +496,6 @@ def is_better_result(candidate: dict[str, Any], incumbent: dict[str, Any]) -> bo
     )
 
 
-def format_epoch_history(result: dict[str, Any]) -> str:
-    epoch_history = result.get("epoch_history")
-    if not isinstance(epoch_history, list) or not epoch_history:
-        return "epoch_history unavailable"
-    lines = []
-    for index, row in enumerate(epoch_history, start=1):
-        if not isinstance(row, dict):
-            continue
-        epoch = row.get("epoch", index)
-        lines.append(
-            f"Epoch {epoch}: "
-            f"train_loss={row.get('train_loss')}, "
-            f"val_loss={row.get('val_loss')}, "
-            f"train_accuracy={row.get('train_accuracy')}, "
-            f"val_accuracy={row.get('val_accuracy')}"
-        )
-    return "\n".join(lines) if lines else "epoch_history unavailable"
-
-
 def format_time_budget_feedback(result: dict[str, Any], time_budget_seconds: float) -> str:
     runtime_seconds = result.get("runtime_seconds")
     if runtime_seconds is None:
@@ -548,12 +530,13 @@ def build_accepted_feedback(summary: dict[str, str], result: dict[str, Any]) -> 
         f"action={summary['action']}\n"
         f"reason={summary['reason']}\n"
         f"best_val_accuracy={result.get('best_val_accuracy')}\n"
+        f"val_accuracy={result.get('val_accuracy')}\n"
+        f"selected_val_accuracy={result.get('selected_val_accuracy')}\n"
+        f"best_epoch={result.get('best_epoch')} / epochs={result.get('epochs')}\n"
         f"val_loss={result.get('val_loss')}\n"
         f"train_loss={result.get('train_loss')}\n"
         f"train_accuracy={result.get('train_accuracy')}\n"
-        f"{format_time_budget_feedback(result, DEFAULT_TRAINING_TIME_BUDGET_SECONDS)}\n"
-        "epoch_history:\n"
-        f"{format_epoch_history(result)}"
+        f"{format_time_budget_feedback(result, DEFAULT_TRAINING_TIME_BUDGET_SECONDS)}"
     )
 
 
@@ -568,14 +551,18 @@ def build_rejected_feedback(
         f"reason={summary['reason']}\n"
         f"candidate_best_val_accuracy={candidate_result.get('best_val_accuracy')} vs "
         f"best_val_accuracy={best_result.get('best_val_accuracy')}\n"
+        f"candidate_val_accuracy={candidate_result.get('val_accuracy')} vs "
+        f"best_val_accuracy={best_result.get('val_accuracy')}\n"
+        f"candidate_train_accuracy={candidate_result.get('train_accuracy')} vs "
+        f"best_train_accuracy={best_result.get('train_accuracy')}\n"
+        f"candidate_best_epoch={candidate_result.get('best_epoch')} / "
+        f"candidate_epochs={candidate_result.get('epochs')}\n"
         f"candidate_val_loss={candidate_result.get('val_loss')} vs "
         f"best_val_loss={best_result.get('val_loss')}\n"
         f"{format_time_budget_feedback(candidate_result, DEFAULT_TRAINING_TIME_BUDGET_SECONDS)}\n"
-        "epoch_history:\n"
-        f"{format_epoch_history(candidate_result)}\n"
-        "Use the training curve to diagnose whether the failure looks like overfitting, underfitting, "
-        "unstable learning rate, or insufficient training. Do not repeat a similar modification unless "
-        "there is a clear new reason."
+        "Use the train_accuracy vs val_accuracy gap and best_epoch position to diagnose whether the failure "
+        "looks like overfitting, underfitting, unstable learning rate, or insufficient training. Do not repeat "
+        "a similar modification unless there is a clear new reason."
     )
 
 
