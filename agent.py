@@ -11,8 +11,9 @@ import queue
 import re
 import shutil
 import sys
+import time
 import traceback
-from typing import Any, Callable
+from typing import Any, Callable, Dict
 import urllib.error
 import urllib.request
 
@@ -21,9 +22,13 @@ DEFAULT_LLM_BASE_URL = "https://api.openai.com/v1"
 # Generated train.py must finish within 120 seconds per run; timed-out executions are terminated.
 DEFAULT_BUDGET = 10
 DEFAULT_TRAINING_TIME_BUDGET_SECONDS = 120.0
+DEFAULT_CANDIDATE_SUMMARY = {
+    "action": "No summary provided",
+    "reason": "The candidate did not include a valid AUTORESEARCH_SUMMARY field",
+}
 
 
-Transport = Callable[[str, dict[str, Any], dict[str, str], float], dict[str, Any]]
+Transport = Callable[[str, Dict[str, Any], Dict[str, str], float], Dict[str, Any]]
 
 
 class PatchProposalError(RuntimeError):
@@ -70,7 +75,6 @@ class SimpleAutoResearchAgent:
 
         best_snapshot_path = workspace_dir / "best_train.py"
         shutil.copy2(self.template_path, best_snapshot_path)
-        baseline_source = best_snapshot_path.read_text(encoding="utf-8")
         settings = default_settings(self.data_dir, self.seed)
 
         baseline_module = validate_candidate_module_file(
@@ -84,13 +88,23 @@ class SimpleAutoResearchAgent:
         )
         current_best_result = baseline_result
         history: list[dict[str, Any]] = []
+        history_summary: list[str] = []
+        last_feedback = "No previous trial feedback yet."
 
         for trial in range(1, self.budget + 1):
             snapshot_path = history_dir / f"trial_{trial:03d}_train.py"
+            current_train_source = best_snapshot_path.read_text(encoding="utf-8")
             request_payload = self._build_request_payload(
-                baseline_source=baseline_source,
+                current_train_source=current_train_source,
+                history_summary=history_summary,
+                last_feedback=last_feedback,
+                current_best_result=current_best_result,
             )
+            response_processing_start: float | None = None
+            candidate_summary = dict(DEFAULT_CANDIDATE_SUMMARY)
             try:
+                request_start = time.perf_counter()
+                print(f"[Kimi][trial {trial:03d}] sending request...", flush=True)
                 response = self.transport(
                     f"{self.llm_base_url}/chat/completions",
                     request_payload,
@@ -100,7 +114,15 @@ class SimpleAutoResearchAgent:
                     },
                     self.llm_timeout,
                 )
-                candidate_source = extract_candidate_source(response)
+                response_received_at = time.perf_counter()
+                print(
+                    f"[Kimi][trial {trial:03d}] response received "
+                    f"after {response_received_at - request_start:.2f}s",
+                    flush=True,
+                )
+                response_processing_start = time.perf_counter()
+                candidate_source = extract_response_source(response)
+                candidate_summary = extract_candidate_summary(candidate_source)
                 snapshot_path.write_text(candidate_source, encoding="utf-8")
                 candidate_module = validate_candidate_module_file(
                     snapshot_path,
@@ -115,6 +137,13 @@ class SimpleAutoResearchAgent:
                 if accepted_as_best:
                     current_best_result = result
                     shutil.copy2(snapshot_path, best_snapshot_path)
+                    last_feedback = build_accepted_feedback(candidate_summary, result)
+                    history_summary.append(build_accepted_history_entry(trial, candidate_summary, result))
+                else:
+                    last_feedback = build_rejected_feedback(candidate_summary, result, current_best_result)
+                    history_summary.append(
+                        build_rejected_history_entry(trial, candidate_summary, result, current_best_result)
+                    )
                 record = build_trial_record(
                     trial=trial,
                     status="ok",
@@ -124,7 +153,20 @@ class SimpleAutoResearchAgent:
                     output_dir=self.output_dir,
                     error="",
                 )
+                print(
+                    f"[Kimi][trial {trial:03d}] response processed "
+                    f"in {time.perf_counter() - response_processing_start:.2f}s",
+                    flush=True,
+                )
             except Exception as exc:
+                if response_processing_start is not None:
+                    print(
+                        f"[Kimi][trial {trial:03d}] response processing failed "
+                        f"after {time.perf_counter() - response_processing_start:.2f}s",
+                        flush=True,
+                    )
+                last_feedback = build_error_feedback(candidate_summary, str(exc))
+                history_summary.append(build_error_history_entry(trial, candidate_summary, str(exc)))
                 record = build_error_record(
                     trial=trial,
                     status="proposal_error",
@@ -133,6 +175,11 @@ class SimpleAutoResearchAgent:
                     error=str(exc),
                 )
             history.append(record)
+            print(
+                f"[trial {trial:03d}] Best validation accuracy: "
+                f"{float(current_best_result['best_val_accuracy']):.4f}",
+                flush=True,
+            )
 
         best_module = validate_candidate_module_file(
             best_snapshot_path,
@@ -168,12 +215,18 @@ class SimpleAutoResearchAgent:
     def _build_request_payload(
         self,
         *,
-        baseline_source: str,
+        current_train_source: str,
+        history_summary: list[str],
+        last_feedback: str,
+        current_best_result: dict[str, Any],
     ) -> dict[str, Any]:
         return {
             "model": self.llm_model,
             "messages": build_source_messages(
-                baseline_source=baseline_source,
+                current_train_source=current_train_source,
+                history_summary=history_summary,
+                last_feedback=last_feedback,
+                current_best_result=current_best_result,
             ),
             "temperature": self.llm_temperature,
         }
@@ -181,19 +234,37 @@ class SimpleAutoResearchAgent:
 
 def build_source_messages(
     *,
-    baseline_source: str,
+    current_train_source: str,
+    history_summary: list[str],
+    last_feedback: str,
+    current_best_result: dict[str, Any],
 ) -> list[dict[str, str]]:
+    history_text = "\n".join(f"- {entry}" for entry in history_summary) if history_summary else "- No prior trials yet."
     lines = [
         "Task: improve train.py for the current benchmark.",
         "",
+        "Current best result:",
+        json.dumps(current_best_result, indent=2, sort_keys=True, default=str),
+        "",
+        "Last feedback:",
+        last_feedback,
+        "",
+        "History summary:",
+        history_text,
+        "",
         "Rules:",
+        "- Review history_summary before proposing changes.",
+        "- Avoid repeating failed or already tested modifications.",
+        "- Build on successful changes when useful.",
         "- Return only the full replacement contents of train.py.",
         "- Do not use Markdown fences.",
         "- Optimize using validation only.",
-        "- Define run_training(settings, config) and predict(settings, config).",
+        "- Must define build_submission_config(), run_training(settings, config), and predict(settings, config).",
+        "- Must include one AUTORESEARCH_SUMMARY comment near the top.",
+        '- The summary comment must look like: # AUTORESEARCH_SUMMARY: {"action": "...", "reason": "..."}',
         "",
-        "Current best train.py:",
-        baseline_source,
+        "Current train.py source:",
+        current_train_source,
     ]
     return [
         {
@@ -215,6 +286,18 @@ def default_settings(data_dir: Path, seed: int) -> dict[str, Any]:
 
 
 def extract_candidate_source(response: dict[str, Any]) -> str:
+    source = extract_response_source(response)
+    missing = [
+        name
+        for name in ("build_submission_config", "run_training", "predict")
+        if not _defines_top_level_function(source, name)
+    ]
+    if missing:
+        raise PatchProposalError(f"Candidate must define {', '.join(missing)}()")
+    return source
+
+
+def extract_response_source(response: dict[str, Any]) -> str:
     try:
         content = response["choices"][0]["message"]["content"]
     except (KeyError, IndexError, TypeError) as exc:
@@ -234,16 +317,35 @@ def extract_candidate_source(response: dict[str, Any]) -> str:
                 source = rest.strip() if first_line.strip() in {"python", "py"} else inner.strip()
             else:
                 source = inner.strip()
-    if not (_defines_top_level_function(source, "run_training") and _defines_top_level_function(source, "predict")):
-        raise PatchProposalError("Candidate must define run_training() and predict()")
     return source + ("\n" if not source.endswith("\n") else "")
+
+
+def extract_candidate_summary(source: str) -> dict[str, str]:
+    match = re.search(r"(?m)^\s*#\s*AUTORESEARCH_SUMMARY:\s*(\{.*\})\s*$", source)
+    if match is None:
+        return dict(DEFAULT_CANDIDATE_SUMMARY)
+    try:
+        parsed = json.loads(match.group(1))
+    except json.JSONDecodeError:
+        return dict(DEFAULT_CANDIDATE_SUMMARY)
+    if not isinstance(parsed, dict):
+        return dict(DEFAULT_CANDIDATE_SUMMARY)
+    action = parsed.get("action")
+    reason = parsed.get("reason")
+    if not isinstance(action, str) or not isinstance(reason, str):
+        return dict(DEFAULT_CANDIDATE_SUMMARY)
+    action = action.strip()
+    reason = reason.strip()
+    if not action or not reason:
+        return dict(DEFAULT_CANDIDATE_SUMMARY)
+    return {"action": action, "reason": reason}
 
 
 def validate_candidate_module_file(module_path: Path, module_name: str) -> Any:
     source = module_path.read_text(encoding="utf-8")
     ast.parse(source)
     module = load_train_module(module_path, module_name)
-    for name in ("run_training", "predict"):
+    for name in ("build_submission_config", "run_training", "predict"):
         if not callable(getattr(module, name, None)):
             raise PatchProposalError(f"Candidate module must define callable {name}()")
     resolve_submission_config(module)
@@ -384,6 +486,84 @@ def is_better_result(candidate: dict[str, Any], incumbent: dict[str, Any]) -> bo
         float(incumbent["best_val_accuracy"]),
         -float(incumbent["val_loss"]),
     )
+
+
+def build_accepted_feedback(summary: dict[str, str], result: dict[str, Any]) -> str:
+    return (
+        "Previous trial succeeded and became the new best candidate. "
+        f"action={summary['action']}; reason={summary['reason']}; "
+        f"best_val_accuracy={result.get('best_val_accuracy')}; "
+        f"val_loss={result.get('val_loss')}; "
+        f"train_loss={result.get('train_loss')}; "
+        f"train_accuracy={result.get('train_accuracy')}."
+    )
+
+
+def build_rejected_feedback(
+    summary: dict[str, str],
+    candidate_result: dict[str, Any],
+    best_result: dict[str, Any],
+) -> str:
+    return (
+        "Previous trial did not improve over the current best. "
+        f"action={summary['action']}; reason={summary['reason']}; "
+        f"candidate_best_val_accuracy={candidate_result.get('best_val_accuracy')} vs "
+        f"best_val_accuracy={best_result.get('best_val_accuracy')}; "
+        f"candidate_val_loss={candidate_result.get('val_loss')} vs "
+        f"best_val_loss={best_result.get('val_loss')}. "
+        "Do not repeat a similar modification unless there is a clear new reason."
+    )
+
+
+def build_error_feedback(summary: dict[str, str], error: str) -> str:
+    return (
+        "Previous trial proposal failed. "
+        f"action={summary['action']}; reason={summary['reason']}; "
+        f"error={short_error(error)}."
+    )
+
+
+def build_accepted_history_entry(trial: int, summary: dict[str, str], result: dict[str, Any]) -> str:
+    return (
+        f"trial_{trial:03d}: ACCEPTED | "
+        f"action={summary['action']} | "
+        f"reason={summary['reason']} | "
+        f"best_val_accuracy={result.get('best_val_accuracy')} | "
+        f"val_loss={result.get('val_loss')}"
+    )
+
+
+def build_rejected_history_entry(
+    trial: int,
+    summary: dict[str, str],
+    candidate_result: dict[str, Any],
+    best_result: dict[str, Any],
+) -> str:
+    return (
+        f"trial_{trial:03d}: REJECTED | "
+        f"action={summary['action']} | "
+        f"reason={summary['reason']} | "
+        f"candidate_best_val_accuracy={candidate_result.get('best_val_accuracy')} | "
+        f"best_val_accuracy={best_result.get('best_val_accuracy')} | "
+        f"candidate_val_loss={candidate_result.get('val_loss')} | "
+        f"best_val_loss={best_result.get('val_loss')}"
+    )
+
+
+def build_error_history_entry(trial: int, summary: dict[str, str], error: str) -> str:
+    return (
+        f"trial_{trial:03d}: ERROR | "
+        f"action={summary['action']} | "
+        f"reason={summary['reason']} | "
+        f"error={short_error(error)}"
+    )
+
+
+def short_error(error: str, max_length: int = 500) -> str:
+    compact = " ".join(str(error).strip().split())
+    if len(compact) <= max_length:
+        return compact
+    return compact[: max_length - 3] + "..."
 
 
 def build_trial_record(
